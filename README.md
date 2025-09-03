@@ -61,12 +61,6 @@ This section will house all course assignments and the final project. Placeholde
 - **Usability Testing Summary**  
 - **Final Presentation Slides / One-pager**
 
----
-
-## Examples (optional reference content)
-
-You can keep or remove this section. It’s handy while getting started.
-
 
 ### Images
 
