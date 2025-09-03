@@ -1,112 +1,118 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) | [About me](#about-me) | [What I hope to learn](#what-i-hope-to-learn) | [Portfolio](#portfolio) |
 
-# TSWD-portfolio-templates
-These portfolio templates are for setting up your Telling Stories with Data site.  Edit these pages and add new ones as needed.   
-It's always helpful to keep track of your web URL.  Consider putting that somewhere on your page for easy reference: 
+# TSWD Portfolio (CMU Heinz)
 
-- Web page URL: https://cmustudent.github.io/tswd-portfolio-templates/
-- This repository: https://github.com/cmustudent/tswd-portfolio-templates/
+This is my public portfolio for **Telling Stories with Data** at Carnegie Mellon University. It’s my public-facing work folder where I’ll collect examples, workshop materials, and document progress on my final project. I’ll maintain it throughout the course so it can serve as a record of what I learned and something I can share with future collaborators or employers.
 
-# Portfolio
-This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
-
-# About me
-Hi!  I really like data.  And I like visualizations.  So I guess you can say that I like data visualizations!
-
-# What I hope to learn
-All the things - obviously. Maybe I want to make a list of all the things.  If so, I can do so in Markdown like this: 
-
-1. List item #1
-2. List item #2
-3. List item #3
-
-or...
-
-- List item #1
-- List item #2
-- List item #3
-
-# Portfolio
-
-# Examples
-You can keep this section for stuff from in-class demos or your other work, or remove it. 
-
-## Assignment: [Visualizing overnment Debt](visualizing-government-debt)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `visualizing-government-debt.md`.  For links to Markdown files in your repository, you can just include the name of the page without the `.md` extension. 
-
-## Assignment 3&4: [Critique by Design](critique-by-design)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
-
-## Final project
-Here it might be helpful to include a high-level description of your final project. 
-[Part I](final-project-part-one)
-[Part II](final-project-part-two)
-Part III(final-project-part-three)
+- Web page URL: https://cmustudent.github.io/tswd-portfolio-templates/  
+- Repository: https://github.com/cmustudent/tswd-portfolio-templates/
 
 ---
-## Other stuff you can do (you can remove this section - it's just for your reference.)
 
-### Changing text
+## About me
 
-You can change text, like this: 
+Hi! I’m **Amirkhon Khamidov**, a master’s student in **Public Policy & Management** at CMU Heinz College. I’m passionate about evidence-based policymaking, public-interest technology, and clear, ethical data visualization.
 
-**Here's some bold** text.  Here's some *italic* text. Here's some ~~strikethrough~~ text. 
+Before Heinz, I worked on regional and macroeconomic analysis—building dashboards, running econometric models (Stata/R/Python), and translating results into practical recommendations. I like taking messy datasets, structuring them, and turning them into visuals that help people decide what to do next.
 
-### Creating tables
+Outside of coursework, I enjoy teaching and collaborating on research, especially projects related to economic development and social policy.
 
-You can build tables like this: 
+---
 
-| Name         | Type of pet | Favority activity 1 | FA 2   | FA 3            | FA 4                                |
-|--------------|-------------|---------------------|--------|-----------------|-------------------------------------|
-| Eli          | cat         | Sleeping            | Eating | Being pet       | Plotting to overthow dog empire     |
-| Howard       | dog         | You                 | You    | You             | Eating                              |
-| Frankenstein | fish        | Swimming            | Eating | Blowing bubbles | Forgetting                          |
+## What I hope to learn
 
-An easy-to-use template generator tool [can be found here](https://www.tablesgenerator.com/markdown_tables)
+In this course I want to:
 
-You can use different headings, like this: 
+- **Tell clearer stories with data**—tight framing, intentional chart choice, strong titles, and just-enough annotation.  
+- **Design responsibly**—accessibility, color choices, uncertainty, and avoiding misleading encodings.  
+- **Build reproducible workflows**—from raw data to publication-ready charts (R/Python), and simple web-ready outputs.  
+- **Critique effectively**—give and receive constructive feedback, and iterate quickly.  
+- **Publish interactives**—lightweight, maintainable pieces I can host in this portfolio.
 
-# Here's a large title (H1)
-## Here's a subtitle (H2)
-### ...and so on (H3)
-You get the idea - just don't forget the space between the # and your title.  `#Title` won't work, but `# Title` will. 
+**After graduating**, I plan to work on data-driven public policy—using analysis and visualization to improve decisions in government or policy research organizations.
 
-### Adding images
+---
 
-Here's an example of how to add an image to my portfolio.  
+## Portfolio
 
-![funny dog picture](funny-dog-unsplash.jpg)
+This section will house all course assignments and the final project. I’ve pre-populated headers and links so I can drop work in as I go.
+
+### Assignments
+
+- **Visualizing Government Debt** → [visualizing-government-debt](visualizing-government-debt)  
+  _A first pass at framing, chart selection, and annotation._
+
+- **Critique by Design (A3 & A4)** → [critique-by-design](critique-by-design)  
+  _Redesign of an existing visualization with rationale and testing._
+
+- **Data Viz Examples** → [dataviz-examples](dataviz-examples)  
+  _A growing gallery of examples I admire (and why)._
+
+### Final Project
+
+- **Part I — Proposal & Audience** → [final project I](final-project-part-one)  
+  _Problem framing, users, decisions, and data sources._
+
+- **Part II — Prototype & Feedback** → [final project II](final-project-part-two)  
+  _Low/high-fidelity drafts, user feedback, and iteration plan._
+
+- **Part III — Final Deliverable** → [final project III](final-project-part-three)  
+  _Published visual with write-up on choices, limitations, and impact._
+
+### Future placeholders (to be filled)
+
+- **Weekly Sketches / Workshop Notes**  
+- **Usability Testing Summary**  
+- **Final Presentation Slides / One-pager**
+
+---
+
+## Examples (optional reference content)
+
+You can keep or remove this section. It’s handy while getting started.
+
+### Formatting basics
+
+**Bold**, *italic*, and ~~strikethrough~~.
+
+### Tables
+
+| Name | Type of pet | Favorite activity |
+|------|-------------|-------------------|
+| Eli  | cat         | Sleeping          |
+| Howard | dog       | Eating            |
+
+A quick table generator: https://www.tablesgenerator.com/markdown_tables
+
+### Images
+
+Markdown:
+
+![funny dog picture](funny-dog-unsplash.jpg)  
 > Photo by <a href="https://unsplash.com/pt-br/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/photos/K4mSJ7kc0As?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
 
-Alternately, you can set the size of the image using just a bit of HTML: 
+HTML with size:
 
 <img src="funny-dog-unsplash.jpg" width="200"/>
 
-Remember that you'll need to upload the image into your repository, or include a link to the image somewhere else.  
+> Remember: upload the image to your repo or link to a hosted image.
 
-### Setting up a separate page
+### Creating a new page
 
-So here's the code you'll need to add to your own site to create a second page. 
+1. Create a new Markdown file (e.g., `dataviz1.md`).  
+2. Link to it from this page using:
+   - `[title](dataviz1)` (for internal Markdown)
+   - `[CMU](https://www.cmu.edu)` (for external links)
 
-1. First, create a new page in your repository (for example, dataviz1.md)
-2. Next, add a link to that page by inserting the following into your readme.md page:
+Check links from your **public URL**, not just the preview.
 
-`[title](dataviz)` or `[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` or `[CMU](https://www.cmu.edu)`
+A concise Markdown guide: https://www.markdownguide.org/cheat-sheet/
 
-Any of those formats will work. Here's some examples of working links: 
-
-`[title](dataviz)` = [title](dataviz)  
-`[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` = [dataviz](https://cmustudent.github.io/portfolio/dataviz.html)  
-`[CMU](https://www.cmu.edu)` = [CMU](https://www.cmu.edu)   
-
-Make sure to check these from your publicly accessible URL to make sure they're working correctly (not from the preview tab). 
-
-Looking for more?  A nice Markdown guide [can be found here](https://www.markdownguide.org/cheat-sheet/)
+---
 
 ## References
-_List any references you used here._
+_List any sources, datasets, or style guides you used._
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
+_If AI assisted within course guidelines, briefly describe how._
+I put this portfolio together myself and just used AI as a quick helper to double-check markdown and smooth a few sentences.  
