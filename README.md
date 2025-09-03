@@ -1,4 +1,4 @@
-# Telling Stories with Data — Online Portfolio
+# Telling Stories with Data - Online Portfolio
 
 ---
 
