@@ -86,15 +86,6 @@ A quick table generator: https://www.tablesgenerator.com/markdown_tables
 
 ### Images
 
-Markdown:
-
-![funny dog picture](funny-dog-unsplash.jpg)  
-> Photo by <a href="https://unsplash.com/pt-br/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/photos/K4mSJ7kc0As?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-HTML with size:
-
-<img src="funny-dog-unsplash.jpg" width="200"/>
-
 > Remember: upload the image to your repo or link to a hosted image.
 
 ### Creating a new page
