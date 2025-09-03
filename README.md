@@ -1,63 +1,59 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) | [About me](#about-me) | [What I hope to learn](#what-i-hope-to-learn) | [Portfolio](#portfolio) |
+# Telling Stories with Data — Online Portfolio
 
-# TSWD Portfolio (CMU Heinz)
-
-This is my public portfolio for **Telling Stories with Data** at Carnegie Mellon University. It’s my public-facing work folder where I’ll collect examples, workshop materials, and document progress on my final project. I’ll maintain it throughout the course so it can serve as a record of what I learned and something I can share with future collaborators or employers.
-
-- Web page URL: https://cmustudent.github.io/tswd-portfolio-templates/  
-- Repository: https://github.com/cmustudent/tswd-portfolio-templates/
+**Public Link:** [https://cmustudent.github.io/tswd-portfolio-templates/](https://cmustudent.github.io/tswd-portfolio-templates/)  
+**Repository:** [https://github.com/cmustudent/tswd-portfolio-templates/](https://github.com/cmustudent/tswd-portfolio-templates/)
 
 ---
 
-## About me
-
-Hi! I’m **Amirkhon Khamidov**, a master’s student in **Public Policy & Management** at CMU Heinz College. I’m passionate about evidence-based policymaking, public-interest technology, and clear, ethical data visualization.
-
-Before Heinz, I worked on regional and macroeconomic analysis—building dashboards, running econometric models (Stata/R/Python), and translating results into practical recommendations. I like taking messy datasets, structuring them, and turning them into visuals that help people decide what to do next.
-
-Outside of coursework, I enjoy teaching and collaborating on research, especially projects related to economic development and social policy.
+| [Home](https://cmustudent.github.io/tswd-portfolio-templates/) | [About Me](#about-me) | [What I Hope to Learn](#what-i-hope-to-learn) | [Portfolio](#portfolio) | [Data Viz Examples](dataviz-examples) | [Critique by Design](critique-by-design) | [Final Project I](final-project-part-one) | [Final Project II](final-project-part-two) | [Final Project III](final-project-part-three) |
 
 ---
 
-## What I hope to learn
+## About Me
 
-In this course I want to:
+Hi! I’m **Amirkhon Khamidov** (he/him).  
+I’m a master’s student in **Public Policy & Management** at Carnegie Mellon University’s Heinz College.  
 
-- **Tell clearer stories with data**—tight framing, intentional chart choice, strong titles, and just-enough annotation.  
-- **Design responsibly**—accessibility, color choices, uncertainty, and avoiding misleading encodings.  
-- **Build reproducible workflows**—from raw data to publication-ready charts (R/Python), and simple web-ready outputs.  
-- **Critique effectively**—give and receive constructive feedback, and iterate quickly.  
-- **Publish interactives**—lightweight, maintainable pieces I can host in this portfolio.
+My background is in economics, policy research, and teaching. I’ve worked at think tanks and universities on projects ranging from industrial policy to education reform. I enjoy turning complex datasets into clear, accessible insights that support better decision-making.  
 
-**After graduating**, I plan to work on data-driven public policy—using analysis and visualization to improve decisions in government or policy research organizations.
+Beyond academics, I’m passionate about connecting people and ideas, and building collaborations between research, policy, and practice.
+
+---
+
+## What I Hope to Learn
+
+In this course, I want to:  
+
+1. **Strengthen storytelling skills** — learn to match visuals to the decisions audiences need to make.  
+2. **Improve design choices** — color, accessibility, chart selection, and clarity of titles.  
+3. **Build reproducible workflows** — so every chart is backed by code and can be updated easily.  
+4. **Publish interactives** — lightweight, web-ready pieces I can share in a portfolio.  
+5. **Practice critique and iteration** — improve work by learning from peers and feedback.  
+
+After graduation, I hope to work in policy research and government, using visualization to bring evidence to life for leaders and citizens.
 
 ---
 
 ## Portfolio
 
-This section will house all course assignments and the final project. I’ve pre-populated headers and links so I can drop work in as I go.
+This section will house all course assignments and the final project. Placeholders are here so the structure is clear from the start.
 
 ### Assignments
 
-- **Visualizing Government Debt** → [visualizing-government-debt](visualizing-government-debt)  
-  _A first pass at framing, chart selection, and annotation._
+- **Critique by Design** → [critique-by-design](critique-by-design)  
+  *(assignment placeholder — redesign exercise)*  
 
-- **Critique by Design (A3 & A4)** → [critique-by-design](critique-by-design)  
-  _Redesign of an existing visualization with rationale and testing._
+- **Workshop Notes**  
+  *(for in-class activities, sketches, or reflections)*  
 
 - **Data Viz Examples** → [dataviz-examples](dataviz-examples)  
-  _A growing gallery of examples I admire (and why)._
+  *(gallery of examples I admire and why)*  
 
 ### Final Project
 
 - **Part I — Proposal & Audience** → [final project I](final-project-part-one)  
-  _Problem framing, users, decisions, and data sources._
-
 - **Part II — Prototype & Feedback** → [final project II](final-project-part-two)  
-  _Low/high-fidelity drafts, user feedback, and iteration plan._
-
 - **Part III — Final Deliverable** → [final project III](final-project-part-three)  
-  _Published visual with write-up on choices, limitations, and impact._
 
 ### Future placeholders (to be filled)
 
@@ -71,33 +67,10 @@ This section will house all course assignments and the final project. I’ve pre
 
 You can keep or remove this section. It’s handy while getting started.
 
-### Formatting basics
-
-**Bold**, *italic*, and ~~strikethrough~~.
-
-### Tables
-
-| Name | Type of pet | Favorite activity |
-|------|-------------|-------------------|
-| Eli  | cat         | Sleeping          |
-| Howard | dog       | Eating            |
-
-A quick table generator: https://www.tablesgenerator.com/markdown_tables
 
 ### Images
 
 > Remember: upload the image to your repo or link to a hosted image.
-
-### Creating a new page
-
-1. Create a new Markdown file (e.g., `dataviz1.md`).  
-2. Link to it from this page using:
-   - `[title](dataviz1)` (for internal Markdown)
-   - `[CMU](https://www.cmu.edu)` (for external links)
-
-Check links from your **public URL**, not just the preview.
-
-A concise Markdown guide: https://www.markdownguide.org/cheat-sheet/
 
 ---
 
