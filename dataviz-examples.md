@@ -4,7 +4,7 @@
 _You can place some of your data viz examples from the course here.  Make sure to include any citations / references / data sources used, and it's probably a good idea to explain what these visualizations show._
 
 
-# Part 2 General Government Debt across OECD countries
+Part 2 General Government Debt across OECD countries
 I followed the instructions and created the chart as required.
 
 <div class='tableauPlaceholder' id='viz1757307876350' style='position: relative'>
@@ -43,7 +43,7 @@ I followed the instructions and created the chart as required.
 </script>
 
 
-# Part 3 General Government Debt across OECD countries
+Part 3 General Government Debt across OECD countries
 I redesigned the chart to focus only on the G7 countries and highlighted the narrative around Japan, showing that it has the highest government debt among the G7.
 
 
