@@ -3,6 +3,8 @@
 # Data visualization examples
 _You can place some of your data viz examples from the course here.  Make sure to include any citations / references / data sources used, and it's probably a good idea to explain what these visualizations show._
 
+--------------
+#
 
 Part 2 General Government Debt across OECD countries
 I followed the instructions and created the chart as required.
