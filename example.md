@@ -1,6 +1,24 @@
 here's new chart
 
-
+   <div class="bg-white p-6 rounded-2xl shadow-lg w-full max-w-3xl">
+        <h2 class="text-2xl font-semibold mb-4 text-center">Bar Chart</h2>
+        <p class="text-gray-600 text-center mb-4">Ideal for comparing values across different categories.</p>
+        
+        <!-- 2. Create a <canvas> element where the chart will be drawn. -->
+        <div class="relative h-80">
+            <canvas id="embeddedBarChart"></canvas>
+        </div>
+    </div>
+…                                label: function(context) {
+                                    return `Sales: ${context.parsed.y}`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        })();
+    </script>
 <div class="bg-white p-6 sm:p-8 rounded-xl shadow-lg w-full max-w-3xl">
         <h1 class="text-xl sm:text-2xl font-bold mb-4 text-center text-gray-800">Example of an Embedded Bar Chart</h1>  
         <!-- 2. Add a <canvas> element where the chart will be drawn. -->
