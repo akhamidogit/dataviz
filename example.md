@@ -2,15 +2,13 @@ here's new chart
 
 
 <div class="bg-white p-6 sm:p-8 rounded-xl shadow-lg w-full max-w-3xl">
-        <h1 class="text-xl sm:text-2xl font-bold mb-4 text-center text-gray-800">Example of an Embedded Bar Chart</h1>
-        
+        <h1 class="text-xl sm:text-2xl font-bold mb-4 text-center text-gray-800">Example of an Embedded Bar Chart</h1>  
         <!-- 2. Add a <canvas> element where the chart will be drawn. -->
         <!-- The parent div helps control the size of the chart. -->
         <div class="relative h-96">
             <canvas id="myEmbeddedChart"></canvas>
         </div>
 </div>
-
     <script>
         // 3. Write the JavaScript code to create and configure the chart.
         
