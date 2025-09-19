@@ -84,5 +84,5 @@ Ultimately, this project was a way for me to reconnect with my past work and app
 
 ---
 ## AI acknowledgements
-Throughout this project, I worked with Google's Gemini as a creative and analytical partner. I used it to generate layout for my webpage, extract data from the original charts and help fix grammar of my reflections and insights for this journal.
+Throughout this project, I worked with AI as a creative and assistive partner. I used it to generate layout for my webpage, extract data from the original charts and help fix grammar of my reflections and insights for this journal.
 
