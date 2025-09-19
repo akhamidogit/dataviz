@@ -57,16 +57,40 @@ However, the **"Good Charts" method** by Scott Berinato was more strategic. It p
 
 ---
 ## Step three: Sketch a solution
-With a clear story in mind, the next step was to imagine the best possible stage for it to be told on. This is the creative, "what if?" phase.
+## Step three: Sketch a solution
 
-I considered a few different formats. A scatter plot could show the relationship between monthly and yearly change, but it would lose the crucial geographic context. A slope chart could highlight the divergence, but again, the map would be gone. The geography felt essential to the story.
+With a clear story in mind from my critique, my first instinct was to jump into a powerful tool like Tableau to explore the data differently. My initial idea was a scatter plot, placing the Monthly change on the X-axis and the Year-on-Year change on the Y-axis. This was immediately effective at revealing clusters, outliers, and the general relationship between the two metrics.
 
-The breakthrough came with a simple but powerful idea: give each metric its own canvas. I sketched out a **dual-map layout**, one for the year-on-year story of universal growth, and another for the more nuanced month-on-month story of a mixed economy. This "small multiples" approach felt like the perfect solution. It would declutter the view, retain the map, and allow the user to easily compare the two patterns. My "sketch" wasn't a detailed drawing, but a clear structural plan for telling my story with clarity.
+I even considered enriching this by turning it into a bubble chart, where the size of each bubble would represent a region's population or GDP contribution. This would have added a crucial layer of context about the *impact* of these changes.
 
-!(link-to-your-sketch-image.jpg)
-*My conceptual sketch, focusing on separating the two key narratives onto their own maps for clarity.*
+<p align="center">
+  <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%200.jpg" alt="Tableau Scatter Plot Sketch" width="70%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
+  <em>My initial exploration in Tableau, mapping the two change metrics against each other.</em>
+</p>
 
----
+However, I realized this approach went beyond the assignment's scope, which was to redesign the visualization using only the *initial dataset*. While a valuable personal endeavor, I decided to set the Tableau attempt aside and refocus on redesigning the core presentation of the original two metrics.
+
+With this renewed focus, I moved to sketching. My goal was to directly address the weaknesses from my critique: the visual clutter and the difficulty of comparison.
+
+<table width="100%" style="border: none;">
+  <tr align="center">
+    <td width="33%" style="border: none; padding: 10px;" valign="top">
+      <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/tg_image_7.png" alt="Data Table Sketch" width="90%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
+      <p><em><b>1. Data Extraction:</b> First, I pulled all the numbers into a simple table. This crucial step allowed me to see the data clearly, free from the distractions of the original map's layout.</em></p>
+    </td>
+    <td width="33%" style="border: none; padding: 10px;" valign="top">
+      <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%201.jpg" alt="Structural Sketch" width="90%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
+      <p><em><b>2. Structural Ideation:</b> Next, I sketched a rough structural layout. This was my initial thought on how to organize the information on the page, focusing on hierarchy, a strong title, and clear sections.</em></p>
+    </td>
+    <td width="33%" style="border: none; padding: 10px;" valign="top">
+      <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%202.jpg" alt="Choropleth Map Sketch" width="90%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
+      <p><em><b>3. The Chosen Direction:</b> This final sketch became the core of my redesign. Instead of cluttered bars, I used a clean <b>choropleth map</b> where color intensity represents the data. This retains the vital geographic context while making visual comparison between regions intuitive and immediate.</em></p>
+    </td>
+  </tr>
+</table>
+
+
+
 ---
 ## Step four: Test the solution
 It's easy to fall in love with your own ideas, so this step was about a crucial reality check. Rather than just testing a static sketch, I decided to build an interactive prototype in Datawrapper. This allowed me to get much richer feedback on the user experience, not just the visual layout. I showed this interactive map to two peers to see if the design was as intuitive as I hoped.
