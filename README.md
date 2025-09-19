@@ -87,11 +87,15 @@
 </div>
 
 
+<br><br> 
+
 
 ## References
 
 _List any sources, datasets, or style guides you used._
 
+
+<br><br>
 
 
 ## AI acknowledgements
