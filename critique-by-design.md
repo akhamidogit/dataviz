@@ -1,24 +1,56 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 ## Critique by design & Redesign 
-This project is a bit of a homecoming for me. I used to work at the Center for Economic Research and Reforms (CERR) in Uzbekistan, the very organization that published the chart I chose to redesign. When I saw it, I recognized an opportunity—not just to improve a visualization, but to showcase the new data storytelling skills I've developed since my time there. This journal documents my process of turning a familiar, data-rich chart into a clearer, more insightful story.
+This project is a bit of a homecoming for me. I used to work at the Center for Economic Research and Reforms (CERR) in Uzbekistan, the very organization that published the chart I chose to redesign. When I saw it, I recognized an opportunity, not just to improve a visualization, but to showcase the new data storytelling skills I've developed since my time there. This journal documents my process of turning a familiar, data-rich chart into a clearer, more insightful story.
 
 ---
 ## Step one: the visualization
-The first step is always about finding a spark—a visualization that's interesting but has room for improvement. It’s like being a scout looking for a diamond in the rough.
 
-!(link-to-your-original-viz-image.jpg)
-*Source: review.uz, Center for Economic Research and Reforms (CERR)*
+This visualization is from an article by Uzbekistan's Center for Economic Research and Reforms (CERR), an organization where I used to work. It was published as part of a regular economic update for policymakers, analysts, and the public.
 
-When I first saw this chart, I felt a mix of intrigue and information overload. Having worked at CERR, I'm deeply familiar with this data and its importance. I knew its audience—policymakers, economists, and investors—and I felt a personal drive to help the underlying story connect with them more effectively. The original presentation, with bar charts crowding a map, felt chaotic. It was hard to see the big picture through all the visual noise. I knew instantly that a powerful story was buried in there, and I chose this visualization because I was excited by the challenge of digging it out.
+!(https://static.review.uz/uploads/1/1100__Y9DyU1IbE9sY2s1D_v2eqxrwvin2DCGw.jpg)
+*Source: Economic Review, Center for Economic Research and Reforms (CERR), https://review.uz/en/post/v-uzbekistane-nablyudaetsya-znachitelny-rost-indeksa-delovoy-aktivnosti*
+
+The map's primary goal is ambitious: it wants to show two different stories at once for every region in the country. First, it shows the short-term, **month-on-month change** in the Business Activity Index (represented by the orange bars). Second, it displays the long-term, **year-on-year change** (the purple bars). It attempts to do this by superimposing 28 different data points and their corresponding bar charts directly onto a geographic map of Uzbekistan.
+
+While the chart is rich with information, the method of layering bars over the map creates a high cognitive load for the viewer. It's difficult to quickly compare regions or grasp the overarching story. I felt a personal drive to untangle this data and help the powerful underlying narrative connect more effectively with its intended audience.
+
+When I first saw this chart, I felt a mix of intrigue and information overload. Having worked at CERR, I'm deeply familiar with this data and its importance. I knew its audience, policymakers, economists, and investors. While the chart is rich with information, the method of layering bars over the map creates a high cognitive load for the viewer. It's difficult to quickly compare regions or grasp the overarching story. I felt a personal drive to untangle this data and help the powerful underlying narrative connect more effectively with its intended audience. Plus, this is nice opportunity to showcase my upgraded skills to my colleagues at CERR. 
+
 
 ---
 ## Step two: the critique
-This is the deconstruction phase—taking the original visualization apart to understand its strengths, weaknesses, and most importantly, its core message.
+**What Worked (The Positive Aspects):**
 
-My first question wasn't "what's wrong with this chart?" but rather, "what's the most interesting story this data is trying to tell?" After extracting the numbers, I had an "aha!" moment. While every region was growing compared to the previous year, several were actually declining compared to the previous month. This conflict—strong long-term growth hiding pockets of short-term weakness—was the narrative hook.
+The visualization's greatest strength is its use of a map to provide **immediate geographic context**. It successfully answers the fundamental "where" question, which is critical for any regional analysis. It's also **data-rich**; it doesn’t oversimplify and provides two distinct, important metrics for every region, giving a comprehensive, if dense, overview.
 
-This insight became my guiding star for the entire redesign. Formal methods like Stephen Few's profile were useful for diagnosing specific issues like label clutter, but the *"Good Charts"* principle of finding the core message was what truly set the direction. The original chart was trying to say everything at once; my goal was now to tell one compelling story about that divergence.
+**What Didn't Work (The Negative Aspects):**
+
+Despite its strengths, the design's effectiveness is undermined by a few key issues:
+- **Visual Clutter & High Cognitive Load:** The primary weakness is layering 28 data points and two bars per region onto a single map. This creates a chaotic visual field that forces the viewer to work hard to extract information. It violates a core heuristic of minimizing extraneous cognitive load.
+- **Difficulty of Comparison:** The layout makes it incredibly difficult to compare regions. A viewer can't easily contrast the yearly growth in Kashkadarya with that in Karakalpakstan because their eyes have to jump across the map, find the correct purple bar, and read the corresponding number. This makes spotting trends and patterns a chore rather than an insight.
+- **The Narrative is Buried:** The most interesting insight I found in the data—the conflict between strong yearly growth and weak monthly figures in several regions—is not immediately apparent. The visualization presents a database of facts but doesn't guide the viewer to the most important story.
+
+To formalize my critique, I assessed the visualization against several key criteria from Stephen Few’s profile. Here's a summary of my thoughts:
+
+- **Usefulness:** **(High)** The chart is genuinely useful. For its intended audience at CERR and in government, tracking regional economic activity is a core function. The *data* is important and the purpose is valid. What it's *trying* to do is valuable.
+
+- **Completeness:** **(High)** The visualization is quite complete. It includes two key metrics (monthly and yearly change), covers all regions, and has a clear source. All the necessary raw information to understand the situation is technically present on the map.
+
+- **Clarity:** **(Very Low)** This is where the visualization fails significantly. The layering of 28 data points, labels, and bar charts over a complex map creates extreme visual clutter. The data-ink ratio is poor, and the core message is completely buried. It's the opposite of clear; it's a visual puzzle.
+
+- **Perceptibility:** **(Low)** While you *can* technically read each number, perceiving patterns is nearly impossible. Comparing the length of a purple bar in the west to one in the east requires significant effort, defeating the purpose of a visual display. The design actively works against the brain's ability to make quick, pre-attentive comparisons.
+
+- **Truthfulness:** **(High)** I have no reason to doubt the accuracy of the data. The bars appear to be scaled correctly to the numbers, and there are no deceptive practices like truncated axes. The chart is honest with its data.
+
+- **Aesthetics:** **(Low)** Subjectively, the aesthetic is not appealing. It looks crowded, the colors are basic, and the overall impression is one of complexity and disorganization rather than elegance and clarity. Good aesthetics often follow good clarity, and the lack of clarity here results in a poor visual experience.
+
+---
+### Comparing Critique Methods
+
+For this critique, I blended two approaches. The Data Visualization Effectiveness Profile from Stephen Few, was useful for a technical breakdown. It gave me the vocabulary to describe *why* the clutter was a problem (like creating cognitive load). It was systematic and rigorous.
+
+However, the **"Good Charts" method** by Scott Berinato was more strategic. It pushed me to ask, "What is the *point* of this chart? Is it declarative or exploratory?", "What is the context?" and so on. This method was less about a checklist and more about finding the core communicative goal.
 
 ---
 ## Step three: Sketch a solution
