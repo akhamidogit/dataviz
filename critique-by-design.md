@@ -9,7 +9,7 @@ This project is a bit of a homecoming for me. I used to work at the Center for E
 This visualization is from an article by Uzbekistan's Center for Economic Research and Reforms (CERR), an organization where I used to work. It was published as part of a regular economic update for policymakers, analysts, and the public.
 
 <div style="width: 80%; margin: 20px auto; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden;">
-    <div style="min-height:635px" id="datawrapper-vis-38tGg"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/38tGg/embed.js" charset="utf-8" data-target="#datawrapper-vis-38tGg"></script><noscript><img src="https://static.review.uz/uploads/1/1100__Y9DyU1IbE9sY2s1D_v2eqxrwvin2DCGw.jpg" " style="width:100%; height:auto; display:block;" /></noscript></div>
+    <div style="min-height:635px" id="data"><script type="text/javascript" defer src="https://static.review.uz/uploads/1/1100__Y9DyU1IbE9sY2s1D_v2eqxrwvin2DCGw.jpg" charset="utf-8" data-target="#datawrapper-vis-38tGg"></script><noscript><img src="https://static.review.uz/uploads/1/1100__Y9DyU1IbE9sY2s1D_v2eqxrwvin2DCGw.jpg" " style="width:100%; height:auto; display:block;" /></noscript></div>
 </div>
 *Source: Economic Review, Center for Economic Research and Reforms (CERR), https://review.uz/en/post/v-uzbekistane-nablyudaetsya-znachitelny-rost-indeksa-delovoy-aktivnosti*
 
