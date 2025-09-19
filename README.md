@@ -1,4 +1,4 @@
-<div align="center">
+
 
 # Telling Stories with Data - Online Portfolio
 
@@ -7,6 +7,9 @@
 | [Home](https://cmustudent.github.io/tswd-portfolio-templates/) | [About Me](#about-me) | [What I Hope to Learn](#what-i-hope-to-learn) | [Portfolio](#portfolio) | [Data Viz Examples](dataviz-examples) | [Critique by Design](critique-by-design) | [Final Project I](final-project-part-one) | [Final Project II](final-project-part-two) | [Final Project III](final-project-part-three) |
 
 ---
+
+<div align="center">
+
 <br>
 
 <h2>What Story Will the Data Tell You?</h2>
