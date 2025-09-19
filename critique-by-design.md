@@ -101,19 +101,31 @@ It's easy to fall in love with your own ideas, so this step was about a crucial 
 - Who do you think this is for?
 - What would you change?
 
-**Results:**
 
-| Question | Interviewee 1 (Policy Analyst, late 20s) | Interviewee 2 (Journalism Student, early 20s) |
-|---|---|---|
-| **What is this about?** | "It's a comparison of economic activity in Uzbekistan, broken down by month and year for different regions." | "Looks like it's showing how business is changing across the country, comparing recent change to the annual trend." |
-| **What's the main story?** | "The yearly growth looks strong everywhere, but the monthly map would show a more mixed picture. The separation makes that easy to see." | "That some places are growing a lot faster year-on-year than others. The side-by-side view helps compare the patterns." |
-| **Anything confusing/missing?** | "No, it's very clear. I'd want the exact date range in a subtitle. And what exactly is the 'Business Activity Index'?" | "The colors make sense, but what do they mean? Like, what are they measuring?" |
-| **Who is the audience?** | "Policymakers, economists, maybe investors." | "Journalists, researchers, anyone interested in the Uzbek economy." |
-| **What would you change?** | "Add a subtitle with the specific time frame and source. Maybe a small note defining the index." | "Maybe add a little box explaining what the index is made of." |
+---
+### Feedback from Participants
 
-**Synthesis:**
+**Interviewee 1 (student, MSPPM program)**
+The first student, who has a background in policy, immediately gravitated towards the color-coded map sketch. They found it a massive improvement over the original but had key questions about the context. They asked, "What is this index actually measuring? Is it jobs, or company registrations, or something else? I need to know what this means to understand the policy implications." They also pointed out that while both monthly and yearly changes were available, the year-over-year map felt like the most important story. They said, "The big annual trend is what I'd show to a minister; the monthly stuff feels like noise in comparison and clouds the main message."
 
-The feedback was a powerful reminder that **context is king**. While both interviewees immediately understood the purpose of the dual-map layout, their feedback revealed a clear demand for more context. They needed to know the specific time frame and, crucially, what the index was actually made of. This insight was invaluable; it showed me that I needed to move beyond just visualizing the numbers and provide the context required for true understanding. This led me to add a detailed subtitle and an explanatory note to the final design.
+**Interviewee 2 (student, MISM program)**
+My second interview was with a student from a more technical background. They appreciated seeing the raw data in the table sketch but agreed that the map was the most effective communication tool. Their feedback was direct and insightful: "Your title needs to be a question. Something like *Where is the growth happening?* Also, the big story is clearly the annual change. Comparing March 2024 to March 2025 is a solid, clean narrative. The monthly data is messy and probably needs its own separate, deeper analysis rather than a top-level visual."
+
+**Interviewee 3 (student, with previous professional experience in data viz)**
+The final participant, who had prior experience in the field, confirmed the emerging pattern with great clarity. They noted that trying to tell two stories (monthly and yearly) at once was the original chart's main failure, and my redesign should avoid that trap. They advised, "Pick one story and tell it exceptionally well. The year-on-year change is the stronger, clearer narrative. Make that your hero visualization. You can always provide the monthly data as a secondary chart, but don't force them to compete in the same space." They also emphasized that a subtitle explaining the exact time frame was non-negotiable for credibility.
+
+### Synthesis & Redesign Plan
+
+After the three interviews, a few powerful patterns emerged that became the blueprint for my final design. It was clear that my initial sketches were a good start, but the feedback provided the critical focus needed for the final version.
+
+1.  **The Year-on-Year Story is King.** All three participants, in their own ways, concluded that the **year-on-year change was the most compelling and important narrative**. The monthly data, while interesting, was consistently seen as secondary and distracting from the main message of significant annual growth. This gave me the confidence to focus my final design exclusively on this single, powerful story.
+
+2.  **Context is Non-Negotiable.** Every single participant asked for more context. They needed to know what the Business Activity Index was made of, and they wanted a clearer title and subtitle to frame the information. This feedback was a crucial reminder that a visualization must be self-sufficient and anticipate the viewer's immediate questions to be truly effective.
+
+Based on this invaluable feedback, I established a clear plan heading into Step Five. My final redesign would:
+- **Focus on a single narrative:** The visualization will *only* show the year-on-year data to tell a clear and impactful story.
+- **Adopt a narrative title:** The title will be an engaging question to draw the viewer in.
+- **Add essential context:** I will add a descriptive subtitle with the exact time frame and an explanatory note defining the Business Activity Index.
 
 ---
 ## Step five: build the solution
