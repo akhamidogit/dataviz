@@ -36,10 +36,6 @@ The breakthrough came with a simple but powerful idea: give each metric its own 
 ## Step four: Test the solution
 It's easy to fall in love with your own ideas, so this step was about a crucial reality check. Rather than just testing a static sketch, I decided to build an interactive prototype in Datawrapper. This allowed me to get much richer feedback on the user experience, not just the visual layout. I showed this interactive map to two peers to see if the design was as intuitive as I hoped.
 
-**The interactive prototype used for user feedback:**
-<iframe title="Where is Business Activity Growing Fastest In Uzbekistan?" aria-label="Choropleth map" id="datawrapper-chart-38tGg" src="https://datawrapper.dwcdn.net/38tGg/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="635" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
-</script>
-
 **Questions Asked:**
 - Can you tell me what you think this is?
 - What is the main story or comparison you see here?
@@ -62,19 +58,25 @@ It's easy to fall in love with your own ideas, so this step was about a crucial 
 The feedback was a powerful reminder that **context is king**. While both interviewees immediately understood the purpose of the dual-map layout, their feedback revealed a clear demand for more context. They needed to know the specific time frame and, crucially, what the index was actually made of. This insight was invaluable; it showed me that I needed to move beyond just visualizing the numbers and provide the context required for true understanding. This led me to add a detailed subtitle and an explanatory note to the final design.
 
 ---
+---
 ## Step five: build the solution
-This was the most satisfying part: assembling all the pieces—the story, the layout, and the user feedback—into a finished product.
 
-!(link-to-your-final-viz-image.jpg)
+This was the most satisfying part: assembling all the pieces—the story, the layout, and the user feedback—into a finished, interactive product. The final solution, built with Datawrapper, directly addresses the issues found in the original visualization and incorporates the insights from the entire design process.
 
-Using Datawrapper, I built the final visualization. It focuses on the year-on-year data to tell the primary story of widespread growth, with the understanding that the monthly data would be presented in a second accompanying map.
+**Final Redesigned Visualization:**
+<iframe title="Where is Business Activity Growing Fastest In Uzbekistan?" aria-label="Choropleth map" id="datawrapper-chart-38tGg" src="https://datawrapper.dwcdn.net/38tGg/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="635" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+</script>
 
-The final piece is more than just a map; it’s the culmination of the entire design process.
-- The **narrative title** ("How a Single Year Reshaped Uzbekistan's Economic Map") immediately sets the stage.
-- The **clean choropleth design** allows for instant comparison between regions, a task that was difficult in the original.
-- The **subtitle and explanatory note** provide the crucial context that my user testing revealed was missing.
+
+Overall, we see the following changes.
+
+- The **narrative title** ("Where is Business Activity Growing Fastest In Uzbekistan?") and **descriptive subtitle** immediately frame the core question and the precise time frame.
+- The **clean choropleth design** with an intuitive color scale allows for instant comparison between regions, a task that was difficult in the original.
+- The inclusion of **major region labels** helps orient the viewer and makes the geographic data more accessible.
+- The **explanatory note** at the bottom provides the crucial context about the index's components that my user testing revealed was missing.
 
 Ultimately, this project was more than just an academic exercise. It was a way for me to reconnect with my past work and apply my new skills in a context I care about deeply. My goal was to create something that my former colleagues at CERR could find valuable—a visualization that not only presents data but also communicates a clear, actionable insight. It represents my growth as a designer and my continued passion for making complex economic data accessible and understandable.
+
 
 ---
 ## References
