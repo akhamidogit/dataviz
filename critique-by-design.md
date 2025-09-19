@@ -65,8 +65,9 @@ I even considered enriching this by turning it into a bubble chart, where the si
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%200.jpg" alt="Tableau Scatter Plot Sketch" width="70%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
-  <em>My initial exploration in Tableau, mapping the two change metrics against each other.</em>
 </p>
+*em>My initial exploration in Tableau, mapping the two change metrics against each other.*
+
 
 However, I realized this approach went beyond the assignment's scope, which was to redesign the visualization using only the *initial dataset*. While a valuable personal endeavor, I decided to set the Tableau attempt aside and refocus on redesigning the core presentation of the original two metrics.
 
@@ -80,7 +81,7 @@ With this renewed focus, I moved to sketching. My goal was to directly address t
     </td>
     <td width="33%" style="border: none; padding: 10px;" valign="top">
       <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%201.jpg" alt="Structural Sketch" width="90%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
-      <p><em><b>2. Structural Ideation:</b> Next, I sketched a rough structural layout. This was my initial thought on how to organize the information on the page, focusing on hierarchy, a strong title, and clear sections.</em></p>
+      <p><em><b>2. </b> Next, I sketched a rough structural layout. This was my initial thought on how to organize the information on the page, focusing on hierarchy, a strong title, and clear sections.</em></p>
     </td>
     <td width="33%" style="border: none; padding: 10px;" valign="top">
       <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%202.jpg" alt="Choropleth Map Sketch" width="90%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
@@ -88,8 +89,6 @@ With this renewed focus, I moved to sketching. My goal was to directly address t
     </td>
   </tr>
 </table>
-
-
 
 ---
 ## Step four: Test the solution
