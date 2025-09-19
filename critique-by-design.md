@@ -61,26 +61,21 @@ The feedback was a powerful reminder that **context is king**. While both interv
 ---
 ## Step five: build the solution
 
-This was the most satisfying part: assembling all the pieces—the story, the layout, and the user feedback—into a finished, interactive product. The final solution, built with Datawrapper, directly addresses the issues found in the original visualization and incorporates the insights from the entire design process.
+This was the final part: assembling all the pieces—the story, the layout, and the user feedback—into a finished, interactive product. The final solution, built with Datawrapper, directly addresses the issues found in the original visualization and incorporates the insights from the entire design process.
 
 **Final Redesigned Visualization:**
-<iframe title="Where is Business Activity Growing Fastest In Uzbekistan?" aria-label="Choropleth map" id="datawrapper-chart-38tGg" src="https://www.datawrapper.de/_/38tGg/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="635" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
-</script>
+<div style="min-height:635px" id="datawrapper-vis-38tGg"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/38tGg/embed.js" charset="utf-8" data-target="#datawrapper-vis-38tGg"></script><noscript><img src="https://datawrapper.dwcdn.net/38tGg/full.png" alt="Where is Business Activity Growing Fastest In Uzbekistan? (Choropleth map)" /></noscript></div>
 
+The original chart’s biggest problem was its visual clutter, which buried the story. To solve this, I chose a clean **choropleth map** as the foundation, allowing me to focus on a single, powerful narrative: the year-on-year growth. The confusing and overlapping bar charts are gone, replaced by an intuitive **color scale** that makes regional comparisons effortless.
 
-Overall, we see the following changes.
+The user feedback in Step Four was a clear signal that context was missing. That's why I moved beyond just the data and focused on framing the narrative. The final visualization leads with a **strong, question-based title** and a **descriptive subtitle** so the viewer understands the core story before they even examine the details. The **explanatory note** at the bottom directly answers the question, "What is the Business Activity Index?", making the chart more self-sufficient and valuable—a direct result of the feedback I received.
 
-- The **narrative title** ("Where is Business Activity Growing Fastest In Uzbekistan?") and **descriptive subtitle** immediately frame the core question and the precise time frame.
-- The **clean choropleth design** with an intuitive color scale allows for instant comparison between regions, a task that was difficult in the original.
-- The inclusion of **major region labels** helps orient the viewer and makes the geographic data more accessible.
-- The **explanatory note** at the bottom provides the crucial context about the index's components that my user testing revealed was missing.
-
-Ultimately, this project was more than just an academic exercise. It was a way for me to reconnect with my past work and apply my new skills in a context I care about deeply. My goal was to create something that my former colleagues at CERR could find valuable—a visualization that not only presents data but also communicates a clear, actionable insight. It represents my growth as a designer and my continued passion for making complex economic data accessible and understandable.
+Ultimately, this project was a way for me to reconnect with my past work and apply my new skills in a context I care about deeply. My goal was to create something that my former colleagues at CERR could find valuable—a visualization that not only presents data but also communicates a clear, actionable insight. 
 
 
 ---
 ## References
-- Center for Economic Research and Reforms. "V Uzbekistane nablyudayetsya znachitelny rost indeksa delovoy aktivnosti" [Uzbekistan sees significant growth in the business activity index]. *review.uz*, Accessed September 18, 2025.
+- Center for Economic Research and Reforms. "Uzbekistan Sees Significant Growth in the Business Activity Index". Rettrieved from: https://review.uz/en/post/v-uzbekistane-nablyudaetsya-znachitelny-rost-indeksa-delovoy-aktivnosti.
 
 ---
 ## AI acknowledgements
