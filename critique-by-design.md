@@ -63,6 +63,15 @@ The feedback was a powerful reminder that **context is king**. While both interv
 
 This was the final part: assembling all the pieces—the story, the layout, and the user feedback—into a finished, interactive product. The final solution, built with Datawrapper, directly addresses the issues found in the original visualization and incorporates the insights from the entire design process.
 
+
+**Final Redesigned Visualization:**
+<div style="width: 80%; margin: 20px auto; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden;">
+    <div style="min-height:635px" id="datawrapper-vis-38tGg"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/38tGg/embed.js" charset="utf-8" data-target="#datawrapper-vis-38tGg"></script><noscript><img src="https://datawrapper.dwcdn.net/38tGg/full.png" alt="Where is Business Activity Growing Fastest In Uzbekistan? (Choropleth map)" style="width:100%; height:auto; display:block;" /></noscript></div>
+</div>
+*My final redesigned map. It aims for clarity and narrative focus, directly addressing the clutter of the original.*
+
+The original chart’s biggest problem was its visual clutter, which buried the story. 
+
 **Final Redesigned Visualization:**
 <div style="min-height:635px" id="datawrapper-vis-38tGg"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/38tGg/embed.js" charset="utf-8" data-target="#datawrapper-vis-38tGg"></script><noscript><img src="https://datawrapper.dwcdn.net/38tGg/full.png" alt="Where is Business Activity Growing Fastest In Uzbekistan? (Choropleth map)" /></noscript></div>
 
