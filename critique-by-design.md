@@ -49,7 +49,6 @@ Aesthetics. The map and bars are not ugly, but they are also not especially attr
 
 Engagement. The visualization draws the viewer in enough to scan regions and compare, but it does not really invite deeper exploration. More interactivity or clearer highlights could make it more engaging.
 
----
 ### Comparing Critique Methods
 
 For this critique, I blended two approaches. The Data Visualization Effectiveness Profile from Stephen Few, was useful for a technical breakdown. It gave me the vocabulary to describe *why* the clutter was a problem (like creating cognitive load). It was systematic and rigorous.
