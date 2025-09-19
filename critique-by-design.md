@@ -32,8 +32,13 @@ The breakthrough came with a simple but powerful idea: give each metric its own 
 *My conceptual sketch, focusing on separating the two key narratives onto their own maps for clarity.*
 
 ---
+---
 ## Step four: Test the solution
-It's easy to fall in love with your own ideas, so this step was about a crucial reality check: putting the sketch in front of fresh eyes to see if it actually worked. I prepared a simple script and shared my "digital sketch" (the dual-map concept) with two peers to gather feedback.
+It's easy to fall in love with your own ideas, so this step was about a crucial reality check. Rather than just testing a static sketch, I decided to build an interactive prototype in Datawrapper. This allowed me to get much richer feedback on the user experience, not just the visual layout. I showed this interactive map to two peers to see if the design was as intuitive as I hoped.
+
+**The interactive prototype used for user feedback:**
+<iframe title="Where is Business Activity Growing Fastest In Uzbekistan?" aria-label="Choropleth map" id="datawrapper-chart-38tGg" src="https://datawrapper.dwcdn.net/38tGg/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="635" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+</script>
 
 **Questions Asked:**
 - Can you tell me what you think this is?
