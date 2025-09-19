@@ -64,7 +64,7 @@ The feedback was a powerful reminder that **context is king**. While both interv
 This was the most satisfying part: assembling all the pieces—the story, the layout, and the user feedback—into a finished, interactive product. The final solution, built with Datawrapper, directly addresses the issues found in the original visualization and incorporates the insights from the entire design process.
 
 **Final Redesigned Visualization:**
-<iframe title="Where is Business Activity Growing Fastest In Uzbekistan?" aria-label="Choropleth map" id="datawrapper-chart-38tGg" src="https://datawrapper.dwcdn.net/38tGg/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="635" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+<iframe title="Where is Business Activity Growing Fastest In Uzbekistan?" aria-label="Choropleth map" id="datawrapper-chart-38tGg" src="https://www.datawrapper.de/_/38tGg/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="635" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
 </script>
 
 
