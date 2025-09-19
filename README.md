@@ -1,33 +1,54 @@
 <div align="center">
 
-<table>
-  <tr>
-    <td style="border: none; padding: 20px;" valign="top">
-      <img src="link-to-your-profile-picture.jpg" alt="Amirkhon Khamidov" width="150" style="border-radius: 50%;">
-    </td>
-    <td style="border: none; padding: 20px;" valign="middle">
-      <h1>Telling Stories with Data - Online Portfolio</h1>
-    </td>
-  </tr>
-</table>
+# Amirkhon Khamidov - Telling Stories with Data
 
 | [Home](https://cmustudent.github.io/tswd-portfolio-templates/) | [Data Viz Examples](dataviz-examples) | [Critique by Design](critique-by-design) | [Final Project I](final-project-part-one) | [Final Project II](final-project-part-two) | [Final Project III](final-project-part-three) |
 |---|---|---|---|---|---|
 
+<br>
+
+<h2>What Story Will the Data Tell You?</h2>
+
+<p>This is my public portfolio showing how to tell stories with Data. Hope you will enjoy!</p>
+
+<br>
+
+<table width="80%">
+  <tr>
+    <td style="background-color: #f0f6ff; border: 1px solid #c8e1ff; border-radius: 6px; padding: 20px;">
+      <b>Quick Links:</b>
+      <ul>
+        <li><b>LinkedIn Profile:</b> <a href="https://www.linkedin.com/in/your-profile-here/">linkedin.com/in/your-profile-here</a></li>
+        <li><b>GitHub Repository:</b> <a href="https://github.com/cmustudent/tswd-portfolio-templates/">cmustudent/tswd-portfolio-templates</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 </div>
 
----
+<br><br>
 
-<table>
+<div align="center">
+<table width="80%">
   <tr>
-    <td width="50%" style="border: none; padding: 15px;" valign="top">
+    <td style="border: 1px solid #d0d7de; border-radius: 6px; padding: 25px;">
       <h2>About Me</h2>
       <p>Hi! I’m <strong>Amirkhon Khamidov</strong> (he/him).<br>
       I’m a master’s student in <strong>Public Policy & Management</strong> at Carnegie Mellon University’s Heinz College.</p>
       <p>My background is in economics, policy research, and teaching. I’ve worked at think tanks and universities on projects ranging from industrial policy to education reform. I enjoy turning complex datasets into clear, accessible insights that support better decision-making.</p>
       <p>Beyond academics, I’m passionate about connecting people and ideas, and building collaborations between research, policy, and practice.</p>
     </td>
-    <td width="50%" style="border: none; padding: 15px;" valign="top">
+  </tr>
+</table>
+</div>
+
+<br><br>
+
+<div align="center">
+<table width="80%">
+  <tr>
+    <td style="border: 1px solid #d0d7de; border-radius: 6px; padding: 25px;">
       <h2>What I Hope to Learn</h2>
       <p>In this course, I want to:</p>
       <ol>
@@ -41,52 +62,40 @@
     </td>
   </tr>
 </table>
+</div>
 
----
+<br><br>
 
-## Portfolio
+<div align="center">
+<h2>Portfolio Examples</h2>
+<p>This portfolio contains some charts and explanations I created during my studies. You can travel through the different examples from here or from the main menu.</p>
 
-This section will house all course assignments and the final project. Placeholders are here so the structure is clear from the start.
-
-<table>
+<table width="80%">
   <tr>
-    <td width="50%" style="border: none; padding: 15px;" valign="top">
-      <h3>Assignments</h3>
-      <ul>
-        <li><strong>Critique by Design</strong> → <a href="critique-by-design">critique-by-design</a><br>
-        <em>(assignment placeholder — redesign exercise)</em></li>
-        <br>
-        <li><strong>Workshop Notes</strong><br>
-        <em>(for in-class activities, sketches, or reflections)</em></li>
-        <br>
-        <li><strong>Data Viz Examples</strong> → <a href="dataviz-examples">dataviz-examples</a><br>
-        <em>(gallery of examples I admire and why)</em></li>
-      </ul>
-      <h3>Final Project</h3>
-        <ul>
-        <li><strong>Part I — Proposal & Audience</strong> → <a href="final-project-part-one">final project I</a></li>
-        <li><strong>Part II — Prototype & Feedback</strong> → <a href="final-project-part-two">final project II</a></li>
-        <li><strong>Part III — Final Deliverable</strong> → <a href="final-project-part-three">final project III</a></li>
-      </ul>
+    <td width="50%" style="border: 1px solid #d0d7de; border-radius: 6px; padding: 25px;" valign="top">
+      <h3>Critique by Design</h3>
+      <p>A redesign exercise focused on improving a cluttered chart about Uzbekistan's economic activity.</p>
+      <a href="critique-by-design">→ Read the full journal entry</a>
     </td>
-    <td width="50%" style="border: none; padding: 15px;" valign="top">
-      <h3>Future placeholders (to be filled)</h3>
-      <ul>
-        <li><strong>Weekly Sketches / Workshop Notes</strong></li>
-        <li><strong>Usability Testing Summary</strong></li>
-        <li><strong>Final Presentation Slides / One-pager</strong></li>
-      </ul>
-      <h3>Images</h3>
-      <blockquote>Remember: upload the image to your repo or link to a hosted image.</blockquote>
+    <td width="50%" style="border: 1px solid #d0d7de; border-radius: 6px; padding: 25px;" valign="top">
+      <h3>Data Viz Examples</h3>
+      <p>A curated gallery of data visualizations that I admire and an analysis of why they are effective.</p>
+      <a href="dataviz-examples">→ View the gallery</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" style="border: 1px solid #d0d7de; border-radius: 6px; padding: 25px;" valign="top">
+      <h3>Final Project</h3>
+      <p>The complete process for my final project, from the initial proposal and audience analysis to the final deliverable.</p>
+      <a href="final-project-part-one">→ See Part I: Proposal</a><br>
+      <a href="final-project-part-two">→ See Part II: Prototype</a><br>
+      <a href="final-project-part-three">→ See Part III: Final</a>
+    </td>
+    <td width="50%" style="border: 1px solid #d0d7de; border-radius: 6px; padding: 25px;" valign="top">
+      <h3>Future Placeholders</h3>
+      <p>This space will be updated with weekly sketches, usability testing summaries, and final presentation materials.</p>
     </td>
   </tr>
 </table>
 
----
-
-## References
-_List any sources, datasets, or style guides you used._
-
-## AI acknowledgements
-_If AI assisted within course guidelines, briefly describe how._
-I put this portfolio together myself and just used AI as a quick helper to double-check markdown and smooth a few sentences.
+</div>
