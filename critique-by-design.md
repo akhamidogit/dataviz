@@ -56,7 +56,7 @@ For this critique, I blended two approaches. The Data Visualization Effectivenes
 However, the **"Good Charts" method** by Scott Berinato was more strategic. It pushed me to ask, "What is the *point* of this chart? Is it declarative or exploratory?", "What is the context?" and so on. This method was less about a checklist and more about finding the core communicative goal.
 
 ---
-## Step three: Sketch a solution
+
 ## Step three: Sketch a solution
 
 With a clear story in mind from my critique, my first instinct was to jump into a powerful tool like Tableau to explore the data differently. My initial idea was a scatter plot, placing the Monthly change on the X-axis and the Year-on-Year change on the Y-axis. This was immediately effective at revealing clusters, outliers, and the general relationship between the two metrics.
@@ -66,7 +66,7 @@ I even considered enriching this by turning it into a bubble chart, where the si
 <p align="center">
   <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%200.jpg" alt="Tableau Scatter Plot Sketch" width="70%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
 </p>
-*em>My initial exploration in Tableau, mapping the two change metrics against each other.*
+*My initial exploration in Tableau, mapping the two change metrics against each other.*
 
 
 However, I realized this approach went beyond the assignment's scope, which was to redesign the visualization using only the *initial dataset*. While a valuable personal endeavor, I decided to set the Tableau attempt aside and refocus on redesigning the core presentation of the original two metrics.
