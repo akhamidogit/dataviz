@@ -12,25 +12,6 @@
 
 <br>
 
-<h2>What Story Will the Data Tell You?</h2>
-
-<p>This is my public portfolio showing how to tell stories with Data. Hope you will enjoy!</p>
-
-<br>
-
-<table width="80%">
-  <tr>
-    <td style="background-color: #f0f6ff; border: 1px solid #c8e1ff; border-radius: 6px; padding: 20px;">
-      <b>Quick Links:</b>
-      <ul>
-        <li><b>LinkedIn Profile:</b> <a href="https://www.linkedin.com/in/your-profile-here/">linkedin.com/in/your-profile-here</a></li>
-        <li><b>GitHub Repository:</b> <a href="https://github.com/cmustudent/tswd-portfolio-templates/">cmustudent/tswd-portfolio-templates</a></li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-</div>
 
 <br><br>
 
@@ -104,3 +85,18 @@
 </table>
 
 </div>
+
+
+
+## References
+
+_List any sources, datasets, or style guides you used._
+
+
+
+## AI acknowledgements
+
+_If AI assisted within course guidelines, briefly describe how._
+
+I put this portfolio together myself and just used AI as a quick helper to double-check markdown and smooth a few sentences.  
+
