@@ -29,7 +29,7 @@ I plan to use sketches to map out the story and the visuals:
 
 
 <p align="center">
-     <img src="https://github.com/akhamidogit/dataviz/blob/main/Housing%20price%20changes.png" alt="Housing price changes" width="70%" style="margin: 20px 0;">
+     <img src="https://github.com/akhamidogit/dataviz/main/Housing%20price%20changes.png" alt="Housing price changes" width="70%" style="margin: 20px 0;">
    </p>
 
 
@@ -39,7 +39,7 @@ I plan to use sketches to map out the story and the visuals:
    - This sketch will serve as a framework for explaining the competing factors and their relative contributions.  
  
 <p align="center">
-     <img src="https://github.com/akhamidogit/dataviz/blob/main/Conceptual%20House%20prices.png" alt="Conceptual housing price factors" width="70%" style="margin: 20px 0;">
+     <img src="https://github.com/akhamidogit/dataviz/main/Conceptual%20House%20prices.png" alt="Conceptual housing price factors" width="70%" style="margin: 20px 0;">
    </p>
 
 > **Additional note (context on supply and demand factors):**  
