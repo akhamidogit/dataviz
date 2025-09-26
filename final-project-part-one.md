@@ -1,42 +1,65 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 
-> Important note: this template includes major elements of Part I, but the instructions on Canvas are the authoritative source.  Make sure to read through the assignment page and review the rubric to confirm you have everything you need before submitting.  When done, delete these instructions before submitting.
+> Important note: this includes major elements of Part I.
 
 # Outline
-> Include a high-level summary of your project.  This should be a couple paragraphs that describe what you're interested in showing with your final project. 
- 
-Text here...
+In recent years, Uzbekistan has experienced a dramatic rise in housing prices, particularly in the capital city, Tashkent. Over the last three years, prices have climbed at a rate not seen in the previous decade. This raises an important question: *what exactly is driving this surge?*  
 
-> A project structure that outlines the major elements of your story.  Your Good Charts text talks about story structure in Chapter 8 - you should describe what you hope to achieve.  Make sure the outline is detailed enough that we can see how you anticipate your story unfolding.  You can incorporate your Story Arc from the in-class exercise along with your user stories and one sentence summary to make the topic even more clear. 
+There are multiple explanations. Some point to supply-side issues, such as fewer new houses being built or rising land and property taxes. Others suggest demand-side pressures, including the increasing number of students moving into cities or overall income growth. But one major factor often discussed is the influx of Russian migrants who arrived during the waves of mobilization following the Russia-Ukraine conflict. These sudden inflows of people put additional pressure on Tashkent’s housing market, potentially driving up prices faster than before.  
 
-Text here...
+My project will tell the story of how these factors—migration, supply constraints, and local demand shifts—interacted to shape the current housing market. By combining visualized price trends with contextual data on migration flows and construction activity, I aim to provide a well-rounded picture of why housing has become so expensive in such a short time.  
+
+**Story structure (setup, conflict, resolution)**  
+- **Setup:** Uzbekistan’s housing market was relatively stable for nearly a decade, with moderate changes in price.  
+- **Conflict:** Starting around 2022, prices spiked dramatically. Competing explanations emerged, including migration shocks from Russia, limited housing construction, and growing local demand.  
+- **Resolution:** By visualizing and comparing these factors, the project will highlight how migration shocks amplified existing supply and demand pressures, helping us better understand the dynamics of Tashkent’s housing crisis.  
 
 ## Initial sketches
-> Post images of your anticipated data visualizations (sketches are fine). They should mimic aspects of your outline, and include elements of your story.  
+I plan to use sketches to map out the story and the visuals:  
 
-Text here...
+1. **Line chart of housing price growth**  
+   - X-axis: Years (2012–2024).  
+   - Y-axis: Median monthly housing prices (USD or UZS).  
+   - Vertical markers for 2022 and 2023, indicating the 1st and 2nd waves of Russian mobilization.  
+   - The aim is to clearly show the sudden upward inflection in prices during these years.  
+
+2. **Conceptual diagram of supply and demand factors**  
+   - Demand side: Russian migration, student influx, rising incomes.  
+   - Supply side: Fewer new houses, government tax policies.  
+   - This sketch will serve as a framework for explaining the competing factors and their relative contributions.  
+
+These sketches will evolve into polished Tableau/Datawrapper visuals later, but they help lock down my story’s structure and message.  
 
 # The data
-> A couple of paragraphs that document your data source(s), and an explanation of how you plan on using your data. 
+**Primary data sources**  
+- **Housing prices dataset:** Monthly scraped data from *olx.uz* (Uzbekistan’s main housing listings site). The raw data contains individual listing prices. These have been cleaned and aggregated in R to calculate monthly median housing prices.  
+- **Migration data:** Official statistics from *stat.uz* on inflows of foreign nationals, with special focus on Russian migrants since 2022.  
+- **Supplementary data:** Construction activity, housing stock, population growth, household incomes, and government land/property taxation policies. These are macroeconomic indicators that allow us to compare demand- and supply-side influences on housing prices.  
 
-Text here...
-
-> A link to the publicly-accessible datasets you plan on using, or a link to a copy of the data you've uploaded to your Github repository, Box account or other publicly-accessible location. Using a datasource that is already publicly accessible is highly encouraged.  If you anticipate using a data source other than something that would be publicly available please talk to me first. 
+**Usage plan**  
+- The housing price dataset will form the core visualization, showing trends over the last decade.  
+- Migration data will be layered in to test the “Russian inflows” hypothesis by correlating spikes in arrivals with price jumps.  
+- Supplementary data will provide context for alternative explanations (population growth, limited housing stock, rising incomes, and taxation).  
 
 | Name | URL | Description |
 |------|-----|-------------|
-|      |     |             |
-|      |     |             |
-|      |     |             |
+| Housing price dataset | [2022–2024 housing prices](https://github.com/akhamidogit/dataviz/blob/main/2022_2024_housing_prices.xlsx), [2025 August housing price](https://github.com/akhamidogit/dataviz/blob/main/2025_08_housing_price.xlsx) | Monthly scraped OLX listings, cleaned and aggregated into median prices. |
+| Migration statistics | (letter to get dataset sent to stat.uz – to be added) | Official data from stat.uz on inflows of foreign nationals (focus on Russians). |
+| Supplementary data | (to be added) | Macroeconomic indicators: housing stock (supply), population growth, household incomes (demand), and taxation policies. |
 
 # Method and medium
-> In a few sentences, you should document how you plan on completing your final project. 
+For my final product, I plan to use:  
+- **Tableau** for interactive charts (line charts, bar charts, factor breakdowns).  
+- **Datawrapper** for clean, static visuals when simplicity is best.  
+- **Shorthand** to bring everything together into a narrative story with scrolling text, images, and embedded charts.  
 
-Text here...
+This combination will allow me to not only present the data but also weave a clear and engaging story about housing prices in Uzbekistan—what caused them to surge, and why this matters for policymakers, students, and the public.  
 
 ## References
-_List any references you used here._
+- Official statistics portal of Uzbekistan: [stat.uz](https://stat.uz)  
+- OLX Uzbekistan housing listings: [olx.uz](https://www.olx.uz)  
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+I used AI (ChatGPT) to help draft the initial structure and wording of my Part I proposal, including organizing sections, polishing language, and aligning the content with the GitHub template. The ideas, topic selection, and data sources are my own.  
+
