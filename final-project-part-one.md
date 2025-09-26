@@ -29,6 +29,21 @@ I plan to use sketches to map out the story and the visuals:
    - Supply side: Housing stock, cost of building materials index.  
    - This sketch will serve as a framework for explaining the competing factors and their relative contributions.  
 
+> **Additional note (context on supply and demand factors):**  
+   > **Demand Factors**  
+   > Interest rates are a major driver of home prices. When interest rates rise, the cost of borrowing increases, which reduces financial options for potential buyers. A 1 percent increase in real interest rates can slow home price growth by about 2 percent. Conversely, low interest rates boost demand by making it easier to get a mortgage.  
+   > Population growth raises competition for limited housing stock, driving up prices, especially in urban areas. Migration patterns also amplify this effect – cities like New York, Berlin, and Toronto have experienced substantial price increases due to both domestic and international migration.  
+   > Rising incomes generally boost housing demand. Individuals with higher incomes can spend more, which causes prices to rise. GDP growth can boost consumer confidence, encouraging homebuyers to enter the market.  
+   >   
+   > **Supply Factors**  
+   > Higher cost of building materials pushes up overall home prices. The National Association of Home Builders reports that rising costs of materials like lumber, steel, and aluminum significantly affect housing affordability, while global factors such as geopolitical tensions and the demand for sustainable building materials further exacerbate these costs.  
+   > Land availability, especially in densely populated urban areas, constrains housing supply, driving prices upward. High population densities and stringent zoning regulations exacerbate this effect, leading to affordability challenges in many global cities.  
+   > Stricter land-use regulations, such as zoning laws, directly contribute to higher housing prices by limiting supply. For instance, cities with restrictive land regulations (e.g., San Francisco) exhibit slower housing construction and more rapid price increases following demand hikes. In contrast, less regulated areas like Texas have experienced higher housing elasticity, maintaining lower housing costs over time. Bureaucratic delays in obtaining planning permissions significantly hinder the pace of housing development.  
+   >   
+   > Although both supply- and demand-side factors shape the housing market, their interaction leads to different real estate cycle phases: recovery, expansion, hyper-supply, and recession. Different phases feature different construction levels, rental and price trends. For instance, during the expansion phase, rental levels increase, and construction begins to catch up with demand.  
+
+
+
 These sketches will evolve into polished Tableau/Datawrapper visuals later, but they help lock down my story’s structure and message.  
 
 # The data
