@@ -19,14 +19,14 @@ My project will tell the story of how these factors—migration, supply constrai
 I plan to use sketches to map out the story and the visuals:  
 
 1. **Line chart of housing price growth**  
-   - X-axis: Years (2012–2024).  
+   - X-axis: Years (2022–2024).  
    - Y-axis: Median monthly housing prices (USD or UZS).  
    - Vertical markers for 2022 and 2023, indicating the 1st and 2nd waves of Russian mobilization.  
    - The aim is to clearly show the sudden upward inflection in prices during these years.  
 
 2. **Conceptual diagram of supply and demand factors**  
-   - Demand side: Russian migration, student influx, rising incomes.  
-   - Supply side: Fewer new houses, government tax policies.  
+   - Demand side: Population, household incomes, Russian migration.  
+   - Supply side: Housing stock, cost of building materials index.  
    - This sketch will serve as a framework for explaining the competing factors and their relative contributions.  
 
 These sketches will evolve into polished Tableau/Datawrapper visuals later, but they help lock down my story’s structure and message.  
@@ -46,7 +46,7 @@ These sketches will evolve into polished Tableau/Datawrapper visuals later, but 
 |------|-----|-------------|
 | Housing price dataset | [2022–2024 housing prices](https://github.com/akhamidogit/dataviz/blob/main/2022_2024_housing_prices.xlsx), [2025 August housing price](https://github.com/akhamidogit/dataviz/blob/main/2025_08_housing_price.xlsx) | Monthly scraped OLX listings, cleaned and aggregated into median prices. |
 | Migration statistics | (letter to get dataset sent to stat.uz – to be added) | Official data from stat.uz on inflows of foreign nationals (focus on Russians). |
-| Supplementary data | (to be added) | Macroeconomic indicators: housing stock (supply), population growth, household incomes (demand), and taxation policies. |
+| Supplementary data | stat.uz | Macroeconomic indicators: housing stock (supply fator), population growth (demand factor), household incomes (demand factor). |
 
 # Method and medium
 For my final product, I plan to use:  
