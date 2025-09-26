@@ -61,5 +61,5 @@ This combination will allow me to not only present the data but also weave a cle
 - OLX Uzbekistan housing listings: [olx.uz](https://www.olx.uz)  
 
 ## AI acknowledgements
-I used AI (ChatGPT) to help draft the initial structure and wording of my Part I proposal, including organizing sections, polishing language, and aligning the content with the GitHub template. The ideas, topic selection, and data sources are my own.  
+I used AI (ChatGPT) to help fix grammar the initial structure and wording of my Part I proposal, including organizing sections, polishing language, and aligning the content with the GitHub template. The ideas, topic selection, and data sources are my own.  
 
