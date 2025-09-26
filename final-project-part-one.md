@@ -28,6 +28,10 @@ I plan to use sketches to map out the story and the visuals:
    - Demand side: Population, household incomes, Russian migration.  
    - Supply side: Housing stock, cost of building materials index.  
    - This sketch will serve as a framework for explaining the competing factors and their relative contributions.  
+ 
+<p align="center">
+     <img src="https://github.com/akhamidogit/dataviz/blob/main/Conceptual%20House%20prices.png" alt="Conceptual housing price factors" width="70%" style="margin: 20px 0;">
+   </p>
 
 > **Additional note (context on supply and demand factors):**  
    > **Demand Factors**  
