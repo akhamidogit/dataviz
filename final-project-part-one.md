@@ -19,10 +19,15 @@ My project will tell the story of how these factors—migration, supply constrai
 I plan to use sketches to map out the story and the visuals:  
 
 1. **Line chart of housing price growth**  
-   - X-axis: Years (2022–2024).  
-   - Y-axis: Median monthly housing prices (USD or UZS).  
+   - X-axis: Years (2022–2025).  
+   - Y-axis: Median monthly housing prices changes (in %), OR Median monthly housing prices (USD or UZS).  
    - Vertical markers for 2022 and 2023, indicating the 1st and 2nd waves of Russian mobilization.  
    - The aim is to clearly show the sudden upward inflection in prices during these years.  
+
+<p align="center">
+     <img src="https://github.com/akhamidogit/dataviz/blob/main/Housing%20price%20changes.png" alt="Housing price changes" width="70%" style="margin: 20px 0;">
+   </p>
+
 
 2. **Conceptual diagram of supply and demand factors**  
    - Demand side: Population, household incomes, Russian migration.  
