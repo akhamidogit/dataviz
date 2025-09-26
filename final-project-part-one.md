@@ -24,6 +24,10 @@ I plan to use sketches to map out the story and the visuals:
    - Vertical markers for 2022 and 2023, indicating the 1st and 2nd waves of Russian mobilization.  
    - The aim is to clearly show the sudden upward inflection in prices during these years.  
 
+<iframe title="Recent housing price spikes in the last 3 years" aria-label="Line chart" id="datawrapper-chart-cLL6z" src="https://datawrapper.dwcdn.net/cLL6z/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="762" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+</script>
+
+
 <p align="center">
      <img src="https://github.com/akhamidogit/dataviz/blob/main/Housing%20price%20changes.png" alt="Housing price changes" width="70%" style="margin: 20px 0;">
    </p>
