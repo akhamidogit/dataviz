@@ -13,6 +13,8 @@ The **resolution** I developed in Part II was to deliberately expand the storyli
 
 Together, this setup–conflict–resolution structure strengthens the narrative: I start by situating the price spike, highlight the problem of oversimplification, and then resolve it by broadening both geographic scope and explanatory factors. My storyboard now reflects this progression, guiding the reader step by step through context, conflict, and cautious resolution.
 
+📍 You can view my evolving storyboard and draft visuals directly in **Shorthand** here: [Shorthand preview link](https://preview.shorthand.com/fmoJFGXger9iCo5F/responsive/desktop).
+
 
 ## Storyboard walkthrough
 1. **Hook (Hero panel)** – “Housing prices in Uzbekistan rose X% since 2021.” Hypothesis: migration as catalyst.  
