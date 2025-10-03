@@ -5,6 +5,15 @@
 ## Story outline and flow
 My story centers on the sharp rise in **Uzbekistan’s housing prices (2022–2024)**. I want to explore whether the influx of **Russian migrants acted as a catalyst**, while also situating this trend in the **regional context** (Kazakhstan, Kyrgyzstan) and considering **other demand/supply factors**.
 
+In Part I, my setup was relatively straightforward: housing prices in Uzbekistan surged sharply between 2022–2024, and my initial idea was to test whether the influx of Russian migrants could help explain this change. The basic sketches were focused on Uzbekistan only, showing a simple before-and-after comparison. That was the starting point of my story.
+
+For Part II, I introduced the **conflict**: the problem with telling the story narrowly through Uzbekistan alone is that the audience quickly asks, “But what about the neighbors? What about Kazakhstan, which lies directly between Russia and Uzbekistan?” By keeping the lens too narrow, I risked presenting a monocausal or oversimplified narrative. Migration alone might look convincing, but without testing other possibilities — such as general economic growth, supply shortages, or parallel trends in nearby countries — the story lacks depth and balance. This is where the tension comes in: how do I expand the story without overwhelming it, and how do I distinguish correlation from causation?
+
+The **resolution** I developed in Part II was to deliberately expand the storyline in two ways. First, I added a **regional layer** by incorporating Kazakhstan and Kyrgyzstan into my visuals. This gives readers a more holistic view of housing dynamics in Central Asia and shows whether Uzbekistan was unique or part of a shared trend. Second, I deepened the analysis by building a **drivers wall** of demand and supply factors — wages, population, building materials costs, and housing stock. This allows me to test whether these alternative explanations broke from historical patterns in 2022–2024. If they mostly track their prior trends, then migration can plausibly be framed as the catalyst that accelerated housing prices during that period.  
+
+Together, this setup–conflict–resolution structure strengthens the narrative: I start by situating the price spike, highlight the problem of oversimplification, and then resolve it by broadening both geographic scope and explanatory factors. My storyboard now reflects this progression, guiding the reader step by step through context, conflict, and cautious resolution.
+
+
 ## Storyboard walkthrough
 1. **Hook (Hero panel)** – “Housing prices in Uzbekistan rose X% since 2021.” Hypothesis: migration as catalyst.  
 2. **Regional context** – Indexed price lines for Uzbekistan, Kazakhstan, Kyrgyzstan (2018–2025).  
