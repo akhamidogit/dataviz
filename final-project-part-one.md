@@ -1,93 +1,167 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project I | Amirkhon Khamidov's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .content-body h2 {
+            font-size: 1.875rem; /* 3xl */
+            font-weight: 700;
+            color: #1e293b; /* slate-900 */
+            margin-bottom: 1.5rem; /* mb-6 */
+            margin-top: 2.5rem; /* mt-10 */
+        }
+        .content-body h3 {
+            font-size: 1.5rem; /* 2xl */
+            font-weight: 700;
+            color: #1e293b; /* slate-900 */
+            margin-bottom: 1rem; /* mb-4 */
+            margin-top: 2rem; /* mt-8 */
+        }
+        .content-body blockquote {
+            border-left: 4px solid #cbd5e1; /* slate-300 */
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+            color: #475569; /* slate-600 */
+            font-style: italic;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Main Container -->
+    <div class="container mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
+
+        <!-- Header and Navigation -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-slate-900 mb-2">Amirkhon Khamidov</h1>
+            <p class="text-xl text-slate-600">Data & Policy Portfolio</p>
+            <nav class="mt-6">
+                <ul class="flex flex-wrap justify-center space-x-4 sm:space-x-6">
+                    <li><a href="index.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Home</a></li>
+                    <li><a href="dataviz-examples.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Data Viz Examples</a></li>
+                    <li><a href="critique-by-design.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Critique by Design</a></li>
+                    <li><a href="final-project-part-one.html" class="text-blue-600 font-bold transition-colors">Final Project I</a></li>
+                    <li><a href="final-project-part-two.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project II</a></li>
+                    <li><a href="final-project-part-three.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project III</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr class="border-slate-200 mb-10">
+
+        <!-- Main Content Area -->
+        <main class="bg-white p-6 sm:p-8 rounded-xl shadow-md border border-slate-200 content-body">
+            <h1 class="text-4xl font-bold text-slate-900 mb-6 text-center">Final Project: Proposal & Outline</h1>
+            <blockquote>Important note: this includes major elements of Part I.</blockquote>
+            <p class="text-slate-600 text-lg leading-relaxed">
+                In recent years, Uzbekistan has experienced a dramatic rise in housing prices, particularly in the capital city, Tashkent. This project will tell the story of how factors like migration, supply constraints, and local demand shifts have interacted to shape the current housing market.
+            </p>
+            
+            <h3 class="!mt-6">Story Structure</h3>
+            <ul class="list-disc list-inside space-y-2 text-slate-600 leading-relaxed">
+                <li><strong>Setup:</strong> Uzbekistan’s housing market was relatively stable for nearly a decade, with moderate changes in price.</li>
+                <li><strong>Conflict:</strong> Starting around 2022, prices spiked dramatically. Competing explanations emerged, including migration shocks from Russia, limited housing construction, and growing local demand.</li>
+                <li><strong>Resolution:</strong> By visualizing and comparing these factors, the project will highlight how migration shocks amplified existing supply and demand pressures, helping us better understand the dynamics of Tashkent’s housing crisis.</li>
+            </ul>
+
+            <hr class="border-slate-200 my-8">
+
+            <!-- Sketches -->
+            <section>
+                <h2>Initial Sketches</h2>
+                <p class="mb-6 text-slate-600 leading-relaxed">I plan to use sketches to map out the story and the visuals.</p>
+                
+                <h3 class="text-xl !mt-4">1. Line Chart of Housing Price Growth</h3>
+                <p class="mb-4 text-slate-600 leading-relaxed">This chart aims to clearly show the sudden upward inflection in prices, with vertical markers for the two waves of Russian mobilization.</p>
+                <div class="w-full my-4 border border-slate-200 rounded-lg overflow-hidden shadow-md">
+                    <iframe title="Recent housing price spikes in the last 3 years" aria-label="Line chart" id="datawrapper-chart-cLL6z" src="https://datawrapper.dwcdn.net/cLL6z/1/" scrolling="no" frameborder="0" style="width: 100%; border: none;" height="762"></iframe>
+                </div>
+                 <figure class="text-center my-6">
+                    <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/Housing%20price%20changes.png" alt="Housing price changes sketch" class="max-w-full sm:max-w-[70%] mx-auto border border-slate-200 rounded-lg p-1 bg-slate-50 shadow-sm">
+                </figure>
 
 
-> Important note: this includes major elements of Part I.
+                <h3 class="text-xl !mt-8">2. Conceptual Diagram of Supply and Demand</h3>
+                 <p class="mb-4 text-slate-600 leading-relaxed">This sketch will serve as a framework for explaining the competing factors and their relative contributions.</p>
+                 <figure class="text-center my-6">
+                    <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/Conceptual%20House%20prices.png" alt="Conceptual housing price factors sketch" class="max-w-full sm:max-w-[70%] mx-auto border border-slate-200 rounded-lg p-1 bg-slate-50 shadow-sm">
+                </figure>
 
-# Outline
-In recent years, Uzbekistan has experienced a dramatic rise in housing prices, particularly in the capital city, Tashkent. Over the last three years, prices have climbed at a rate not seen in the previous decade. This raises an important question: *what exactly is driving this surge?*  
+                <blockquote>
+                    <h4 class="font-bold text-slate-700 not-italic">Context on Supply and Demand Factors</h4>
+                    <p class="mt-2"><strong>Demand Factors:</strong> Interest rates, population growth, migration patterns, and rising incomes all boost housing demand. Low rates make borrowing easier, while more people competing for limited housing stock drives up prices, especially in urban areas.</p>
+                    <p class="mt-2"><strong>Supply Factors:</strong> The cost of building materials, land availability, and strict land-use regulations constrain housing supply. When it's more expensive or difficult to build, fewer homes are available, leading to higher prices.</p>
+                </blockquote>
+            </section>
 
-There are multiple explanations. Some point to supply-side issues, such as fewer new houses being built or rising land and property taxes. Others suggest demand-side pressures, including the increasing number of students moving into cities or overall income growth. But one major factor often discussed is the influx of Russian migrants who arrived during the waves of mobilization following the Russia-Ukraine conflict. These sudden inflows of people put additional pressure on Tashkent’s housing market, potentially driving up prices faster than before.  
+             <hr class="border-slate-200 my-8">
 
-My project will tell the story of how these factors—migration, supply constraints, and local demand shifts—interacted to shape the current housing market. By combining visualized price trends with contextual data on migration flows and construction activity, I aim to provide a well-rounded picture of why housing has become so expensive in such a short time.  
+            <!-- Data -->
+            <section>
+                <h2>The Data</h2>
+                <p class="mb-6 text-slate-600 leading-relaxed">The project relies on a combination of scraped housing data, official migration statistics, and supplementary macroeconomic indicators.</p>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead class="bg-slate-100">
+                            <tr>
+                                <th class="p-3 font-semibold text-sm text-slate-700 border-b">Name</th>
+                                <th class="p-3 font-semibold text-sm text-slate-700 border-b">URL</th>
+                                <th class="p-3 font-semibold text-sm text-slate-700 border-b">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200">
+                            <tr>
+                                <td class="p-3 text-slate-600">Housing price dataset</td>
+                                <td class="p-3"><a href="https://github.com/akhamidogit/dataviz/blob/main/2022_2024_housing_prices.xlsx" class="text-blue-600 hover:underline">2022–2024</a>, <a href="https://github.com/akhamidogit/dataviz/blob/main/2025_08_housing_price.xlsx" class="text-blue-600 hover:underline">2025</a></td>
+                                <td class="p-3 text-slate-600">Monthly scraped OLX listings, cleaned and aggregated into median prices.</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 text-slate-600">Migration statistics</td>
+                                <td class="p-3 text-slate-500 italic">(To be added)</td>
+                                <td class="p-3 text-slate-600">Official data from stat.uz on inflows of foreign nationals (focus on Russians).</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 text-slate-600">Supplementary data</td>
+                                <td class="p-3"><a href="https://stat.uz" class="text-blue-600 hover:underline">stat.uz</a></td>
+                                <td class="p-3 text-slate-600">Macroeconomic indicators: housing stock, population growth, household incomes.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            
+             <hr class="border-slate-200 my-8">
 
-**Story structure (setup, conflict, resolution)**  
-- **Setup:** Uzbekistan’s housing market was relatively stable for nearly a decade, with moderate changes in price.  
-- **Conflict:** Starting around 2022, prices spiked dramatically. Competing explanations emerged, including migration shocks from Russia, limited housing construction, and growing local demand.  
-- **Resolution:** By visualizing and comparing these factors, the project will highlight how migration shocks amplified existing supply and demand pressures, helping us better understand the dynamics of Tashkent’s housing crisis.  
+            <!-- Method -->
+            <section>
+                <h2>Method and Medium</h2>
+                <p class="mb-4 text-slate-600 leading-relaxed">For my final product, I plan to use a combination of tools to weave a clear and engaging story:</p>
+                <ul class="list-disc list-inside space-y-2 text-slate-600 leading-relaxed">
+                    <li><strong>Tableau</strong> for interactive charts (line charts, bar charts, factor breakdowns).</li>
+                    <li><strong>Datawrapper</strong> for clean, static visuals when simplicity is best.</li>
+                    <li><strong>Shorthand</strong> to bring everything together into a narrative story with scrolling text, images, and embedded charts.</li>
+                </ul>
+            </section>
 
-## Initial sketches
-I plan to use sketches to map out the story and the visuals:  
+        </main>
 
-1. **Line chart of housing price growth**  
-   - X-axis: Years (2022–2025).  
-   - Y-axis: Median monthly housing prices changes (in %), OR Median monthly housing prices (USD or UZS).  
-   - Vertical markers for 2022 and 2023, indicating the 1st and 2nd waves of Russian mobilization.  
-   - The aim is to clearly show the sudden upward inflection in prices during these years.  
+        <!-- Footer -->
+        <footer class="text-center text-sm text-slate-500 mt-12">
+             <h3 class="font-semibold text-slate-600 mb-2">AI Acknowledgement</h3>
+             <p>I used AI (ChatGPT) to help fix grammar the initial structure and wording of my Part I proposal, including organizing sections, polishing language, and aligning the content with the GitHub template. The ideas, topic selection, and data sources are my own.</p>
+            <p class="mt-4">© 2025 Amirkhon Khamidov</p>
+        </footer>
 
-<iframe title="Recent housing price spikes in the last 3 years" aria-label="Line chart" id="datawrapper-chart-cLL6z" src="https://datawrapper.dwcdn.net/cLL6z/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="762" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
-</script>
-
-
-<p align="center">
-     <img src="https://github.com/akhamidogit/dataviz/main/Housing%20price%20changes.png" alt="Housing price changes" width="70%" style="margin: 20px 0;">
-   </p>
-
-
-2. **Conceptual diagram of supply and demand factors**  
-   - Demand side: Population, household incomes, Russian migration.  
-   - Supply side: Housing stock, cost of building materials index.  
-   - This sketch will serve as a framework for explaining the competing factors and their relative contributions.  
- 
-<p align="center">
-     <img src="https://github.com/akhamidogit/dataviz/main/Conceptual%20House%20prices.png" alt="Conceptual housing price factors" width="70%" style="margin: 20px 0;">
-   </p>
-
-> **Additional note (context on supply and demand factors):**  
-   > **Demand Factors**  
-   > Interest rates are a major driver of home prices. When interest rates rise, the cost of borrowing increases, which reduces financial options for potential buyers. A 1 percent increase in real interest rates can slow home price growth by about 2 percent. Conversely, low interest rates boost demand by making it easier to get a mortgage.  
-   > Population growth raises competition for limited housing stock, driving up prices, especially in urban areas. Migration patterns also amplify this effect – cities like New York, Berlin, and Toronto have experienced substantial price increases due to both domestic and international migration.  
-   > Rising incomes generally boost housing demand. Individuals with higher incomes can spend more, which causes prices to rise. GDP growth can boost consumer confidence, encouraging homebuyers to enter the market.  
-   >   
-   > **Supply Factors**  
-   > Higher cost of building materials pushes up overall home prices. The National Association of Home Builders reports that rising costs of materials like lumber, steel, and aluminum significantly affect housing affordability, while global factors such as geopolitical tensions and the demand for sustainable building materials further exacerbate these costs.  
-   > Land availability, especially in densely populated urban areas, constrains housing supply, driving prices upward. High population densities and stringent zoning regulations exacerbate this effect, leading to affordability challenges in many global cities.  
-   > Stricter land-use regulations, such as zoning laws, directly contribute to higher housing prices by limiting supply. For instance, cities with restrictive land regulations (e.g., San Francisco) exhibit slower housing construction and more rapid price increases following demand hikes. In contrast, less regulated areas like Texas have experienced higher housing elasticity, maintaining lower housing costs over time. Bureaucratic delays in obtaining planning permissions significantly hinder the pace of housing development.  
-   >   
-   > Although both supply- and demand-side factors shape the housing market, their interaction leads to different real estate cycle phases: recovery, expansion, hyper-supply, and recession. Different phases feature different construction levels, rental and price trends. For instance, during the expansion phase, rental levels increase, and construction begins to catch up with demand.  
-
-
-
-These sketches will evolve into polished Tableau/Datawrapper visuals later, but they help lock down my story’s structure and message.  
-
-# The data
-**Primary data sources**  
-- **Housing prices dataset:** Monthly scraped data from *olx.uz* (Uzbekistan’s main housing listings site). The raw data contains individual listing prices. These have been cleaned and aggregated in R to calculate monthly median housing prices.  
-- **Migration data:** Official statistics from *stat.uz* on inflows of foreign nationals, with special focus on Russian migrants since 2022.  
-- **Supplementary data:** Construction activity, housing stock, population growth, household incomes, and government land/property taxation policies. These are macroeconomic indicators that allow us to compare demand- and supply-side influences on housing prices.  
-
-**Usage plan**  
-- The housing price dataset will form the core visualization, showing trends over the last decade.  
-- Migration data will be layered in to test the “Russian inflows” hypothesis by correlating spikes in arrivals with price jumps.  
-- Supplementary data will provide context for alternative explanations (population growth, limited housing stock, rising incomes, and taxation).  
-
-| Name | URL | Description |
-|------|-----|-------------|
-| Housing price dataset | [2022–2024 housing prices](https://github.com/akhamidogit/dataviz/blob/main/2022_2024_housing_prices.xlsx), [2025 August housing price](https://github.com/akhamidogit/dataviz/blob/main/2025_08_housing_price.xlsx) | Monthly scraped OLX listings, cleaned and aggregated into median prices. |
-| Migration statistics | (letter to get dataset sent to stat.uz – to be added) | Official data from stat.uz on inflows of foreign nationals (focus on Russians). |
-| Supplementary data | stat.uz | Macroeconomic indicators: housing stock (supply fator), population growth (demand factor), household incomes (demand factor). |
-
-# Method and medium
-For my final product, I plan to use:  
-- **Tableau** for interactive charts (line charts, bar charts, factor breakdowns).  
-- **Datawrapper** for clean, static visuals when simplicity is best.  
-- **Shorthand** to bring everything together into a narrative story with scrolling text, images, and embedded charts.  
-
-This combination will allow me to not only present the data but also weave a clear and engaging story about housing prices in Uzbekistan—what caused them to surge, and why this matters for policymakers, students, and the public.  
-
-## References
-- Official statistics portal of Uzbekistan: [stat.uz](https://stat.uz)  
-- OLX Uzbekistan housing listings: [olx.uz](https://www.olx.uz)  
-
-## AI acknowledgements
-I used AI (ChatGPT) to help fix grammar the initial structure and wording of my Part I proposal, including organizing sections, polishing language, and aligning the content with the GitHub template. The ideas, topic selection, and data sources are my own.  
+    </div>
+</body>
+</html>
 
