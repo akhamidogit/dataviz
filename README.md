@@ -30,10 +30,13 @@
             <p class="text-xl text-slate-600">Data & Policy Portfolio</p>
             <nav class="mt-6">
                 <ul class="flex justify-center space-x-4 sm:space-x-6">
-                    <li><a href="./" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Home</a></li>
-                    <li><a href="#" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Data Viz Examples</a></li>
-                    <li><a href="#" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Critique by Design</a></li>
-                    <li><a href="#" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project</a></li>
+                    <li><a href="https://cmustudent.github.io/dataviz/" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Home</a></li>
+                    <li><a href="dataviz-examples" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Data Viz Examples</a></li>
+                    <li><a href="critique-by-design" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Critique by Design</a></li>
+                    <li><a href="final-project-part-one" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project I</a></li>
+                    <li><a href="final-project-part-two" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project II</a></li>
+                    <li><a href="final-project-part-three" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project III</a></li>
+
                 </ul>
             </nav>
         </header>
