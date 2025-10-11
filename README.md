@@ -71,14 +71,14 @@
                 <div class="project-card bg-white p-6 rounded-xl shadow-md border border-slate-200 transition-all duration-300">
                     <h3 class="text-2xl font-bold text-slate-900 mb-2">Critique by Design</h3>
                     <p class="text-slate-600 mb-4">A redesign exercise focused on improving a cluttered chart about Uzbekistan's economic activity.</p>
-                    <a href="#" class="font-semibold text-blue-600 hover:underline">→ Read the full journal entry</a>
+                    <a href="critique-by-design" class="font-semibold text-blue-600 hover:underline">→ Read the full journal entry</a>
                 </div>
 
                 <!-- Project Card 2 -->
                 <div class="project-card bg-white p-6 rounded-xl shadow-md border border-slate-200 transition-all duration-300">
                     <h3 class="text-2xl font-bold text-slate-900 mb-2">Data Viz Examples</h3>
                     <p class="text-slate-600 mb-4">A curated gallery of data visualizations that I admire and an analysis of why they are effective.</p>
-                    <a href="#" class="font-semibold text-blue-600 hover:underline">→ View the gallery</a>
+                    <a href="dataviz-examples" class="font-semibold text-blue-600 hover:underline">→ View the gallery</a>
                 </div>
 
                 <!-- Project Card 3 -->
@@ -86,9 +86,9 @@
                     <h3 class="text-2xl font-bold text-slate-900 mb-2">Final Project</h3>
                     <p class="text-slate-600 mb-4">The complete process for my final project, from the initial proposal and audience analysis to the final deliverable.</p>
                     <ul class="list-disc list-inside space-y-2">
-                        <li><a href="#" class="font-semibold text-blue-600 hover:underline">Part I: Proposal & Audience Analysis</a></li>
-                        <li><a href="#" class="font-semibold text-blue-600 hover:underline">Part II: Data & Prototype</a></li>
-                        <li><a href="#" class="font-semibold text-blue-600 hover:underline">Part III: Final Visualization</a></li>
+                        <li><a href="final-project-part-one" class="font-semibold text-blue-600 hover:underline">Part I: Proposal & Audience Analysis</a></li>
+                        <li><a href="final-project-part-two" class="font-semibold text-blue-600 hover:underline">Part II: Data & Prototype</a></li>
+                        <li><a href="final-project-part-three" class="font-semibold text-blue-600 hover:underline">Part III: Final Visualization</a></li>
                     </ul>
                 </div>
             </div>
