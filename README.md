@@ -51,9 +51,8 @@
                     <p class="mb-3">My background is in economics, policy research, and teaching. I’ve worked at think tanks and universities on projects ranging from industrial policy to education reform. I enjoy turning complex datasets into clear, accessible insights that support better decision-making.</p>
                     <p class="mb-4">Beyond academics, I’m passionate about connecting people and ideas, and building collaborations between research, policy, and practice.</p>
                     <div class="flex space-x-4">
-                        <a href="#" class="bg-slate-800 text-white py-2 px-4 rounded-lg hover:bg-slate-700 transition-colors">LinkedIn</a>
-                        <a href="#" class="bg-slate-800 text-white py-2 px-4 rounded-lg hover:bg-slate-700 transition-colors">GitHub</a>
-                        <a href="#" class="bg-slate-800 text-white py-2 px-4 rounded-lg hover:bg-slate-700 transition-colors">Email</a>
+                        <a href="https://www.linkedin.com/in/amirkhamidov/" class="bg-slate-800 text-white py-2 px-4 rounded-lg hover:bg-slate-700 transition-colors">LinkedIn</a>
+                        <a href="https://www.facebook.com/amirkhamid20" class="bg-slate-800 text-white py-2 px-4 rounded-lg hover:bg-slate-700 transition-colors">Facebook</a>
                     </div>
                 </div>
                 <div class="md:w-1/4 flex-shrink-0">
