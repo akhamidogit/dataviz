@@ -82,9 +82,7 @@
                 
                 <h3 class="text-xl !mt-4">1. Line Chart of Housing Price Growth</h3>
                 <p class="mb-4 text-slate-600 leading-relaxed">This chart aims to clearly show the sudden upward inflection in prices, with vertical markers for the two waves of Russian mobilization.</p>
-                <div class="w-full my-4 border border-slate-200 rounded-lg overflow-hidden shadow-md">
-                    <iframe title="Recent housing price spikes in the last 3 years" aria-label="Line chart" id="datawrapper-chart-cLL6z" src="https://datawrapper.dwcdn.net/cLL6z/1/" scrolling="no" frameborder="0" style="width: 100%; border: none;" height="762"></iframe>
-                </div>
+
                  <figure class="text-center my-6">
                     <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/Housing%20price%20changes.png" alt="Housing price changes sketch" class="max-w-full sm:max-w-[70%] mx-auto border border-slate-200 rounded-lg p-1 bg-slate-50 shadow-sm">
                 </figure>
