@@ -1,158 +1,145 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-## Critique by design & Redesign 
-This project is a bit of a homecoming for me. I used to work at the Center for Economic Research and Reforms (CERR) in Uzbekistan, the very organization that published the chart I chose to redesign. When I saw it, I recognized an opportunity, not just to improve a visualization, but to showcase the new data storytelling skills I've developed since my time there. This journal documents my process of turning a familiar, data-rich chart into a clearer, more insightful story.
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critique by Design | Amirkhon Khamidov's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .content-body h2 {
+            font-size: 1.875rem; /* 3xl */
+            font-weight: 700;
+            color: #1e293b; /* slate-900 */
+            margin-bottom: 1.5rem; /* mb-6 */
+            margin-top: 2.5rem; /* mt-10 */
+        }
+        .content-body h3 {
+            font-size: 1.5rem; /* 2xl */
+            font-weight: 700;
+            color: #1e293b; /* slate-900 */
+            margin-bottom: 1rem; /* mb-4 */
+            margin-top: 2rem; /* mt-8 */
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
 
----
-## Step one: the visualization
+    <!-- Main Container -->
+    <div class="container mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
 
-This visualization is from an article by Uzbekistan's Center for Economic Research and Reforms (CERR), an organization where I used to work. It was published as part of a regular economic update for policymakers, analysts, and the public.
+        <!-- Header and Navigation -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-slate-900 mb-2">Amirkhon Khamidov</h1>
+            <p class="text-xl text-slate-600">Data & Policy Portfolio</p>
+            <nav class="mt-6">
+                <ul class="flex flex-wrap justify-center space-x-4 sm:space-x-6">
+                    <li><a href="index.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Home</a></li>
+                    <li><a href="dataviz-examples.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Data Viz Examples</a></li>
+                    <li><a href="critique-by-design.html" class="text-blue-600 font-bold transition-colors">Critique by Design</a></li>
+                    <li><a href="final-project-part-one.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project I</a></li>
+                    <li><a href="final-project-part-two.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project II</a></li>
+                    <li><a href="final-project-part-three.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project III</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<p align="center">
-  <img src="https://static.review.uz/uploads/1/1100__Y9DyU1IbE9sY2s1D_v2eqxrwvin2DCGw.jpg" alt="Business Activity Visualization" width="70%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
-</p>
-*Source: Economic Review, Center for Economic Research and Reforms (CERR), https://review.uz/en/post/v-uzbekistane-nablyudaetsya-znachitelny-rost-indeksa-delovoy-aktivnosti*
+        <hr class="border-slate-200 mb-10">
 
-The map's primary goal is ambitious: it wants to show two different stories at once for every region in the country. First, it shows the short-term, **month-on-month change** in the Business Activity Index (represented by the orange bars). Second, it displays the long-term, **year-on-year change** (the purple bars). It attempts to do this by superimposing 28 different data points and their corresponding bar charts directly onto a geographic map of Uzbekistan.
+        <!-- Main Content Area -->
+        <main class="bg-white p-6 sm:p-8 rounded-xl shadow-md border border-slate-200 content-body">
+            <h1 class="text-4xl font-bold text-slate-900 mb-6 text-center">Critique by Design & Redesign</h1>
+            <p class="text-slate-600 text-lg leading-relaxed">
+                This project is a bit of a homecoming for me. I used to work at the Center for Economic Research and Reforms (CERR) in Uzbekistan, the very organization that published the chart I chose to redesign. When I saw it, I recognized an opportunity, not just to improve a visualization, but to showcase the new data storytelling skills I've developed since my time there. This journal documents my process of turning a familiar, data-rich chart into a clearer, more insightful story.
+            </p>
+            
+            <hr class="border-slate-200 my-8">
 
-While the chart is rich with information, the method of layering bars over the map creates a high cognitive load for the viewer. It's difficult to quickly compare regions or grasp the overarching story. I felt a personal drive to untangle this data and help the powerful underlying narrative connect more effectively with its intended audience.
+            <!-- Step One -->
+            <section>
+                <h2>Step One: The Visualization</h2>
+                <p class="mb-6 text-slate-600 leading-relaxed">This visualization is from an article by Uzbekistan's Center for Economic Research and Reforms (CERR), an organization where I used to work. It was published as part of a regular economic update for policymakers, analysts, and the public.</p>
+                <figure class="text-center">
+                    <img src="https://static.review.uz/uploads/1/1100__Y9DyU1IbE9sY2s1D_v2eqxrwvin2DCGw.jpg" alt="Business Activity Visualization" class="max-w-full sm:max-w-[70%] mx-auto border border-slate-200 rounded-lg p-1 bg-slate-50 shadow-sm">
+                    <figcaption class="mt-2 text-sm text-slate-500 italic">Source: Economic Review, CERR</figcaption>
+                </figure>
+                <p class="mt-6 text-slate-600 leading-relaxed">The map's primary goal is ambitious: it wants to show two different stories at once for every region in the country. First, it shows the short-term, <strong>month-on-month change</strong> in the Business Activity Index (represented by the orange bars). Second, it displays the long-term, <strong>year-on-year change</strong> (the purple bars). While the chart is rich with information, the method of layering bars over the map creates a high cognitive load for the viewer. It's difficult to quickly compare regions or grasp the overarching story. I felt a personal drive to untangle this data and help the powerful underlying narrative connect more effectively with its intended audience.</p>
+            </section>
 
-When I first saw this chart, I felt a mix of intrigue and information overload. Having worked at CERR, I'm deeply familiar with this data and its importance. I knew its audience, policymakers, economists, and investors. While the chart is rich with information, the method of layering bars over the map creates a high cognitive load for the viewer. It's difficult to quickly compare regions or grasp the overarching story. I felt a personal drive to untangle this data and help the powerful underlying narrative connect more effectively with its intended audience. Plus, this is nice opportunity to showcase my upgraded skills to my colleagues at CERR. 
+            <!-- Step Two -->
+            <section>
+                <h2>Step Two: The Critique</h2>
+                <h3 class="!mt-4">What Worked (The Positive Aspects):</h3>
+                <p class="text-slate-600 leading-relaxed">The visualization's greatest strength is its use of a map to provide <strong>immediate geographic context</strong>. It successfully answers the fundamental "where" question, which is critical for any regional analysis. It's also <strong>data-rich</strong>; it doesn’t oversimplify and provides a comprehensive, if dense, overview.</p>
+                
+                <h3 class="mt-6">What Didn't Work (The Negative Aspects):</h3>
+                <ul class="list-disc list-inside space-y-2 text-slate-600 leading-relaxed">
+                    <li><strong>Visual Clutter & High Cognitive Load:</strong> The primary weakness is layering 28 data points and two bars per region onto a single map. This creates a chaotic visual field that forces the viewer to work hard to extract information.</li>
+                    <li><strong>Difficulty of Comparison:</strong> The layout makes it incredibly difficult to compare regions. A viewer can't easily contrast the yearly growth in one area with another because their eyes have to jump across the map.</li>
+                    <li><strong>The Narrative is Buried:</strong> The most interesting insight—the conflict between strong yearly growth and weak monthly figures in several regions—is not immediately apparent.</li>
+                </ul>
+            </section>
+            
+            <!-- Step Three -->
+            <section>
+                <h2>Step Three: Sketch a Solution</h2>
+                <p class="text-slate-600 leading-relaxed mb-6">With a clear story in mind from my critique, my goal was to directly address the weaknesses: the visual clutter and the difficulty of comparison. I moved from data exploration to sketching out a clearer presentation.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                    <div>
+                        <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/tg_image_7.png" alt="Data Table Sketch" class="w-full border border-slate-200 rounded-lg p-1 bg-slate-50 shadow-sm">
+                        <p class="mt-2 text-sm text-slate-500 italic"><b>1. Data Extraction:</b> First, I pulled all the numbers into a simple table to see the data clearly.</p>
+                    </div>
+                     <div>
+                        <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%201.jpg" alt="Structural Sketch" class="w-full border border-slate-200 rounded-lg p-1 bg-slate-50 shadow-sm">
+                        <p class="mt-2 text-sm text-slate-500 italic"><b>2. Structural Sketch:</b> Next, I sketched a rough layout, focusing on hierarchy and clear sections.</p>
+                    </div>
+                     <div>
+                        <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%202.jpg" alt="Choropleth Map Sketch" class="w-full border border-slate-200 rounded-lg p-1 bg-slate-50 shadow-sm">
+                        <p class="mt-2 text-sm text-slate-500 italic"><b>3. The Chosen Direction:</b> This sketch became my redesign, using a clean choropleth map for intuitive comparison.</p>
+                    </div>
+                </div>
+            </section>
 
+            <!-- Step Four -->
+            <section>
+                <h2>Step Four: Test the Solution</h2>
+                <p class="text-slate-600 leading-relaxed mb-6">I built an interactive prototype in Datawrapper and showed it to three peers to see if the design was as intuitive as I hoped. The feedback was invaluable and formed a clear blueprint for my final design.</p>
+                <h3 class="!mt-4">Synthesis & Redesign Plan</h3>
+                <ol class="list-decimal list-inside space-y-2 text-slate-600 leading-relaxed">
+                    <li><strong>The Year-on-Year Story is King:</strong> All three participants concluded that the year-on-year change was the most compelling narrative. This gave me the confidence to focus my final design exclusively on this single, powerful story.</li>
+                    <li><strong>Context is Non-Negotiable:</strong> Every participant asked for more context, like what the index measured and a clearer timeframe. This was a crucial reminder that a visualization must be self-sufficient.</li>
+                </ol>
+            </section>
 
----
-## Step two: the critique
-**What Worked (The Positive Aspects):**
+            <!-- Step Five -->
+            <section>
+                <h2>Step Five: Build the Solution</h2>
+                <p class="text-slate-600 leading-relaxed mb-6">This was the final part: assembling all the pieces into a finished, interactive product. The final solution, built with Datawrapper, directly addresses the issues found in the original visualization and incorporates the insights from the entire design process.</p>
+                <h3 class="text-center !mt-4">Final Redesigned Visualization</h3>
+                <div class="w-full my-4 border border-slate-200 rounded-lg overflow-hidden shadow-md">
+                    <div id="datawrapper-vis-38tGg" style="min-height:635px">
+                        <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/38tGg/embed.js" charset="utf-8"></script>
+                        <noscript><img src="https://datawrapper.dwcdn.net/38tGg/full.png" alt="Where is Business Activity Growing Fastest In Uzbekistan? (Choropleth map)"/></noscript>
+                    </div>
+                </div>
+                <p class="text-slate-600 leading-relaxed mt-6">The original chart’s biggest problem was its visual clutter. I chose a clean <strong>choropleth map</strong>, allowing me to focus on a single, powerful narrative: year-on-year growth. The confusing bar charts are gone, replaced by an intuitive <strong>color scale</strong> that makes regional comparisons effortless. I also added a <strong>strong, question-based title</strong> and an <strong>explanatory note</strong> to provide the context that user feedback showed was missing.</p>
+            </section>
 
-The visualization's greatest strength is its use of a map to provide **immediate geographic context**. It successfully answers the fundamental "where" question, which is critical for any regional analysis. It's also **data-rich**; it doesn’t oversimplify and provides two distinct, important metrics for every region, giving a comprehensive, if dense, overview.
+        </main>
 
-**What Didn't Work (The Negative Aspects):**
+        <!-- Footer -->
+        <footer class="text-center text-sm text-slate-500 mt-12">
+             <h3 class="font-semibold text-slate-600 mb-2">AI Acknowledgement</h3>
+            <p>Throughout this project, I worked with AI as a creative and assistive partner. I used it to generate layout for my webpage, extract data from the original charts and help fix grammar of my reflections and insights for this journal.</p>
+            <p class="mt-4">© 2025 Amirkhon Khamidov</p>
+        </footer>
 
-Despite its strengths, the design's effectiveness is undermined by a few key issues:
-- **Visual Clutter & High Cognitive Load:** The primary weakness is layering 28 data points and two bars per region onto a single map. This creates a chaotic visual field that forces the viewer to work hard to extract information. It violates a core heuristic of minimizing extraneous cognitive load.
-- **Difficulty of Comparison:** The layout makes it incredibly difficult to compare regions. A viewer can't easily contrast the yearly growth in Kashkadarya with that in Karakalpakstan because their eyes have to jump across the map, find the correct purple bar, and read the corresponding number. This makes spotting trends and patterns a chore rather than an insight.
-- **The Narrative is Buried:** The most interesting insight I found in the data—the conflict between strong yearly growth and weak monthly figures in several regions—is not immediately apparent. The visualization presents a database of facts but doesn't guide the viewer to the most important story.
-
-To formalize my critique, I assessed the visualization against several key criteria from Stephen Few’s profile. Here's a summary of my thoughts:
-
-Usefulness. The data is clearly useful for its intended audience such as decision makers, economists, and policymakers, because it shows how regions compare in terms of business activity.
-
-Completeness. The visualization includes comparisons both to the previous month and to the same month of the previous year, which adds valuable context. Still, without extra reference points like national averages or trend lines, it feels slightly incomplete.
-
-Perceptibility. While the bars are placed on the map correctly, the double bars for each region are sometimes hard to compare because of overlapping colors and uneven spacing. A simpler design could improve readability.
-
-Truthfulness. The visualization represents the data accurately, with no misleading scales or distortions. Each bar matches the numbers shown, which maintains validity.
-
-Intuitiveness. The idea of using a map plus bars is familiar, but the legend and double-color coding may require a moment to understand. For someone not used to this style, it may take effort at first.
-
-Aesthetics. The map and bars are not ugly, but they are also not especially attractive. The color choices feel functional but not appealing. A cleaner, more modern design could make it more enjoyable to look at.
-
-Engagement. The visualization draws the viewer in enough to scan regions and compare, but it does not really invite deeper exploration. More interactivity or clearer highlights could make it more engaging.
-
-### Comparing Critique Methods
-
-For this critique, I blended two approaches. The Data Visualization Effectiveness Profile from Stephen Few, was useful for a technical breakdown. It gave me the vocabulary to describe *why* the clutter was a problem (like creating cognitive load). It was systematic and rigorous.
-
-However, the **"Good Charts" method** by Scott Berinato was more strategic. It pushed me to ask, "What is the *point* of this chart? Is it declarative or exploratory?", "What is the context?" and so on. This method was less about a checklist and more about finding the core communicative goal.
-
----
-
-## Step three: Sketch a solution
-
-With a clear story in mind from my critique, my first instinct was to jump into a powerful tool like Tableau to explore the data differently. My initial idea was a scatter plot, placing the Monthly change on the X-axis and the Year-on-Year change on the Y-axis. This was immediately effective at revealing clusters, outliers, and the general relationship between the two metrics.
-
-I even considered enriching this by turning it into a bubble chart, where the size of each bubble would represent a region's population or GDP contribution. This would have added a crucial layer of context about the *impact* of these changes.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%200.jpg" alt="Tableau Scatter Plot Sketch" width="70%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
-</p>
-*My initial exploration in Tableau, mapping the two change metrics against each other.*
-
-
-However, I realized this approach went beyond the assignment's scope, which was to redesign the visualization using only the *initial dataset*. While a valuable personal endeavor, I decided to set the Tableau attempt aside and refocus on redesigning the core presentation of the original two metrics.
-
-With this renewed focus, I moved to sketching. My goal was to directly address the weaknesses from my critique: the visual clutter and the difficulty of comparison.
-
-<table width="100%" style="border: none;">
-  <tr align="center">
-    <td width="33%" style="border: none; padding: 10px;" valign="top">
-      <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/tg_image_7.png" alt="Data Table Sketch" width="90%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
-      <p><em><b>1. Data Extraction:</b> First, I pulled all the numbers into a simple table. This crucial step allowed me to see the data clearly, free from the distractions of the original map's layout.</em></p>
-    </td>
-    <td width="33%" style="border: none; padding: 10px;" valign="top">
-      <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%201.jpg" alt="Structural Sketch" width="90%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
-      <p><em><b>2. </b> Next, I sketched a rough structural layout. This was my initial thought on how to organize the information on the page, focusing on hierarchy, a strong title, and clear sections.</em></p>
-    </td>
-    <td width="33%" style="border: none; padding: 10px;" valign="top">
-      <img src="https://raw.githubusercontent.com/akhamidogit/dataviz/main/sketch%202.jpg" alt="Choropleth Map Sketch" width="90%" style="border:1px solid #ccc; border-radius:8px; padding:4px; background:#fafafa;">
-      <p><em><b>3. The Chosen Direction:</b> This final sketch became the core of my redesign. Instead of cluttered bars, I used a clean <b>choropleth map</b> where color intensity represents the data. This retains the vital geographic context while making visual comparison between regions intuitive and immediate.</em></p>
-    </td>
-  </tr>
-</table>
-
----
-## Step four: Test the solution
-It's easy to fall in love with your own ideas, so this step was about a crucial reality check. Rather than just testing a static sketch, I decided to build an interactive prototype in Datawrapper. This allowed me to get much richer feedback on the user experience, not just the visual layout. I showed this interactive map to two peers to see if the design was as intuitive as I hoped.
-
-**Questions Asked:**
-- Can you tell me what you think this is?
-- What is the main story or comparison you see here?
-- Is there anything you find confusing or anything you feel is missing?
-- Who do you think this is for?
-- What would you change?
-
-
----
-### Feedback from Participants
-
-**Interviewee 1 (student, MSPPM program)**
-The first student, who has a background in policy, immediately gravitated towards the color-coded map sketch. They found it a massive improvement over the original but had key questions about the context. They asked, "What is this index actually measuring? Is it jobs, or company registrations, or something else? I need to know what this means to understand the policy implications." They also pointed out that while both monthly and yearly changes were available, the year-over-year map felt like the most important story. They said, "The big annual trend is what I'd show to a minister; the monthly stuff feels like noise in comparison and clouds the main message."
-
-**Interviewee 2 (student, MISM program)**
-My second interview was with a student from a more technical background. They appreciated seeing the raw data in the table sketch but agreed that the map was the most effective communication tool. Their feedback was direct and insightful: "Your title needs to be a question. Something like *Where is the growth happening?* Also, the big story is clearly the annual change. Comparing March 2024 to March 2025 is a solid, clean narrative. The monthly data is messy and probably needs its own separate, deeper analysis rather than a top-level visual."
-
-**Interviewee 3 (student, with previous professional experience in data viz)**
-The final participant, who had prior experience in the field, confirmed the emerging pattern with great clarity. They noted that trying to tell two stories (monthly and yearly) at once was the original chart's main failure, and my redesign should avoid that trap. They advised, "Pick one story and tell it exceptionally well. The year-on-year change is the stronger, clearer narrative. Make that your hero visualization. You can always provide the monthly data as a secondary chart, but don't force them to compete in the same space." They also emphasized that a subtitle explaining the exact time frame was non-negotiable for credibility.
-
-### Synthesis & Redesign Plan
-
-After the three interviews, a few powerful patterns emerged that became the blueprint for my final design. It was clear that my initial sketches were a good start, but the feedback provided the critical focus needed for the final version.
-
-1.  **The Year-on-Year Story is King.** All three participants, in their own ways, concluded that the **year-on-year change was the most compelling and important narrative**. The monthly data, while interesting, was consistently seen as secondary and distracting from the main message of significant annual growth. This gave me the confidence to focus my final design exclusively on this single, powerful story.
-
-2.  **Context is Non-Negotiable.** Every single participant asked for more context. They needed to know what the Business Activity Index was made of, and they wanted a clearer title and subtitle to frame the information. This feedback was a crucial reminder that a visualization must be self-sufficient and anticipate the viewer's immediate questions to be truly effective.
-
-Based on this invaluable feedback, I established a clear plan heading into Step Five. My final redesign would:
-- **Focus on a single narrative:** The visualization will *only* show the year-on-year data to tell a clear and impactful story.
-- **Adopt a narrative title:** The title will be an engaging question to draw the viewer in.
-- **Add essential context:** I will add a descriptive subtitle with the exact time frame and an explanatory note defining the Business Activity Index.
-
----
-## Step five: build the solution
-
-This was the final part: assembling all the pieces—the story, the layout, and the user feedback—into a finished, interactive product. The final solution, built with Datawrapper, directly addresses the issues found in the original visualization and incorporates the insights from the entire design process.
-
-
-**Final Redesigned Visualization:**
-<div style="width: 80%; margin: 20px auto; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden;">
-    <div style="min-height:635px" id="datawrapper-vis-38tGg"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/38tGg/embed.js" charset="utf-8" data-target="#datawrapper-vis-38tGg"></script><noscript><img src="https://datawrapper.dwcdn.net/38tGg/full.png" alt="Where is Business Activity Growing Fastest In Uzbekistan? (Choropleth map)" style="width:100%; height:auto; display:block;" /></noscript></div>
-</div>
-*My final redesigned map. It aims for clarity and narrative focus, directly addressing the clutter of the original.*
-
-
-The original chart’s biggest problem was its visual clutter, which buried the story. To solve this, I chose a clean **choropleth map** as the foundation, allowing me to focus on a single, powerful narrative: the year-on-year growth. The confusing and overlapping bar charts are gone, replaced by an intuitive **color scale** that makes regional comparisons effortless.
-
-The user feedback in Step Four was a clear signal that context was missing. That's why I moved beyond just the data and focused on framing the narrative. The final visualization leads with a **strong, question-based title** and a **descriptive subtitle** so the viewer understands the core story before they even examine the details. The **explanatory note** at the bottom directly answers the question, "What is the Business Activity Index?", making the chart more self-sufficient and valuable—a direct result of the feedback I received.
-
-Ultimately, this project was a way for me to reconnect with my past work and apply my new skills in a context I care about deeply. My goal was to create something that my former colleagues at CERR could find valuable—a visualization that not only presents data but also communicates a clear, actionable insight. 
-
-
----
-## References
-- Center for Economic Research and Reforms. "Uzbekistan Sees Significant Growth in the Business Activity Index". Rettrieved from: https://review.uz/en/post/v-uzbekistane-nablyudaetsya-znachitelny-rost-indeksa-delovoy-aktivnosti.
-
-
----
-## AI acknowledgements
-Throughout this project, I worked with AI as a creative and assistive partner. I used it to generate layout for my webpage, extract data from the original charts and help fix grammar of my reflections and insights for this journal.
+    </div>
+</body>
+</html>
 
