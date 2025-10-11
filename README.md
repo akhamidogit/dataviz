@@ -30,7 +30,7 @@
             <p class="text-xl text-slate-600">Data & Policy Portfolio</p>
             <nav class="mt-6">
                 <ul class="flex justify-center space-x-4 sm:space-x-6">
-                    <li><a href="#" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Home</a></li>
+                    <li><a href="./" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Home</a></li>
                     <li><a href="#" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Data Viz Examples</a></li>
                     <li><a href="#" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Critique by Design</a></li>
                     <li><a href="#" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project</a></li>
