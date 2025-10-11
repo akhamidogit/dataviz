@@ -115,7 +115,7 @@
         <footer class="text-center text-sm text-slate-500">
              <h3 class="font-semibold text-slate-600 mb-2">AI Acknowledgement</h3>
             <p>I utilized AI tools as a writing assistant to help proofread content, refine sentence structure, and ensure the Markdown syntax was clean and effective. All core concepts, analysis, and designs are my own.</p>
-            <p class="mt-4">© 2024 Amirkhon Khamidov</p>
+            <p class="mt-4">© 2025 Amirkhon Khamidov</p>
         </footer>
 
     </div>
