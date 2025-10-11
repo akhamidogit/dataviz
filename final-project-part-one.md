@@ -49,9 +49,9 @@
                     <li><a href="index.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Home</a></li>
                     <li><a href="dataviz-examples.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Data Viz Examples</a></li>
                     <li><a href="critique-by-design.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Critique by Design</a></li>
-                    <li><a href="final-project-part-one.html" class="text-blue-600 font-bold transition-colors">Final Project I</a></li>
-                    <li><a href="final-project-part-two.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project II</a></li>
-                    <li><a href="final-project-part-three.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project III</a></li>
+                    <li><a href="final-project-part-one" class="text-blue-600 font-bold transition-colors">Final Project I</a></li>
+                    <li><a href="final-project-part-two" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project II</a></li>
+                    <li><a href="final-project-part-three" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project III</a></li>
                 </ul>
             </nav>
         </header>
