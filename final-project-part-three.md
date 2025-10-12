@@ -131,7 +131,7 @@
             
             <!-- Reflections -->
             <section>
-                <h2>Key Learnings</h2>
+                <h2>Reflections</h2>
                 <p class="text-slate-600 leading-relaxed">
                     This project was a valuable learning experience in applied data storytelling. It taught me the importance of moving beyond just creating charts to building a coherent narrative that guides an audience through a complex topic. The process of starting with a single-country focus and expanding it based on feedback was a practical lesson in analytical flexibility.
                 </p>
@@ -155,7 +155,9 @@
                 <div class="text-slate-600 leading-relaxed space-y-2 text-sm">
                     <p>Institute for Macroeconomic and Regional Studies. (2023). *The impact of relocation on the economy of Uzbekistan*. IMRS. Retrieved from https://imrs.uz/publications/articles-and-abstracts/impact_on_economy</p>
                     <p>Federal State Statistics Service (Rosstat). (2023). *Socio-economic situation of Russia*. Rettrieved from https://rosstat.gov.ru/statistic)</p>
-                    <p>State Committee of the Republic of Uzbekistan on Statistics (Stat.uz). (n.d.). *Housing market prices*. Retrieved from https://stat.uz/en/official-statistics/prices-and-indexes</p>
+                    <p>State Committee of the Republic of Uzbekistan on Statistics (Stat.uz). (n.d.). *Prices and Indexes*. Retrieved from https://stat.uz/en/official-statistics/prices-and-indexes</p>
+                    <p>Central Bank Uzbekistan. (2024). REAL ESTATE MARKET ANALYSIS. https://cbu.uz/upload/iblock/132/10l3j17ds1r3ifee5kn93vs8w7wgnxzc/Real-Estate-Market-of-Uzbekistan_ENG_merged.pdf</p>
+                     <p>Guide, G. P. (2025). Kazakhstan’s Residential Property Market Analysis 2025. Global Property Guide. https://www.globalpropertyguide.com/asia/kazakhstan/price-history <p>
                 </div>
             </section>
 
