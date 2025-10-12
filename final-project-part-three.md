@@ -157,7 +157,7 @@
                     <p>Federal State Statistics Service (Rosstat). (2023). *Socio-economic situation of Russia*. Rettrieved from https://rosstat.gov.ru/statistic)</p>
                     <p>State Committee of the Republic of Uzbekistan on Statistics (Stat.uz). (n.d.). *Prices and Indexes*. Retrieved from https://stat.uz/en/official-statistics/prices-and-indexes</p>
                     <p>Central Bank Uzbekistan. (2024). REAL ESTATE MARKET ANALYSIS. https://cbu.uz/upload/iblock/132/10l3j17ds1r3ifee5kn93vs8w7wgnxzc/Real-Estate-Market-of-Uzbekistan_ENG_merged.pdf</p>
-                     <p>Guide, G. P. (2025). Kazakhstan’s Residential Property Market Analysis 2025. Global Property Guide. https://www.globalpropertyguide.com/asia/kazakhstan/price-history <p>
+                     <p>Guide, G. P. (2025). Kazakhstan’s Residential Property Market Analysis 2025. Global Property Guide. https://www.globalpropertyguide.com/asia/kazakhstan/price-history</p>
                 </div>
             </section>
 
