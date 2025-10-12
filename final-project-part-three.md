@@ -66,7 +66,7 @@
             <section>
                 <h2>The Final Data Story</h2>
                 <p class="text-slate-600 leading-relaxed mb-4">
-                    My final story, "Housing Price Growth in Uzbekistan," examines the significant increase in the country's housing prices from 2022 to 2024. The narrative explores the link between the influx of Russian migrants and the price spike, placing the trend within a regional context and considering other economic drivers to provide a balanced account.
+                    My final story, "Housing Price Growth in Uzbekistan," examines the significant increase in the country's housing prices in the last 3 years, especially in 2022. The narrative explores the link between the influx of Russian migrants and the price spike, placing the trend within a regional context and considering other economic drivers to provide a balanced account.
                 </p>
                 <div class="mt-6 text-center">
                     <a href="https://preview.shorthand.com/fmoJFGXger9iCo5F/responsive/desktop" target="_blank" rel="noopener noreferrer" class="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors text-lg">
