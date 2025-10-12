@@ -148,19 +148,6 @@
             </section>
 
             <hr class="border-slate-200 my-8">
-            
-            <!-- Tools & Software Used -->
-            <section>
-                <h2>Tools & Software Used</h2>
-                <ul class="list-disc list-inside space-y-3 mt-4 text-slate-600 leading-relaxed">
-                    <li><strong>Data Visualization:</strong> Tableau, Datawrapper, Excel</li>
-                    <li><strong>Web Platform:</strong> Shorthand</li>
-                    <li><strong>Documentation & Collaboration:</strong> GitHub</li>
-                    <li><strong>AI Assistance:</strong> ChatGPT, Gemini</li>
-                </ul>
-            </section>
-
-            <hr class="border-slate-200 my-8">
 
             <!-- References -->
             <section>
