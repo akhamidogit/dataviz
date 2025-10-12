@@ -49,9 +49,9 @@
                     <li><a href="index.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Home</a></li>
                     <li><a href="dataviz-examples.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Data Viz Examples</a></li>
                     <li><a href="critique-by-design.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Critique by Design</a></li>
-                    <li><a href="final-project-part-one" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project I</a></li>
-                    <li><a href="final-project-part-two" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project II</a></li>
-                    <li><a href="final-project-part-three" class="text-blue-600 font-bold transition-colors">Final Project III</a></li>
+                    <li><a href="final-project-part-one.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project I</a></li>
+                    <li><a href="final-project-part-two.html" class="text-slate-700 hover:text-blue-600 font-medium transition-colors">Final Project II</a></li>
+                    <li><a href="final-project-part-three.html" class="text-blue-600 font-bold transition-colors">Final Project III</a></li>
                 </ul>
             </nav>
         </header>
@@ -66,7 +66,7 @@
             <section>
                 <h2>The Final Data Story</h2>
                 <p class="text-slate-600 leading-relaxed mb-4">
-                    The final story investigates the dramatic surge in Uzbekistan's housing prices from 2022 to 2024. It moves beyond a simple country-level analysis to place the trend in a regional context, comparing it with Kazakhstan and Kyrgyzstan. The narrative explores the compelling temporal link between the influx of Russian migrants and the price spike, while carefully examining other economic drivers to provide a balanced and nuanced perspective. The goal was to create a clear, credible, and visually engaging story for those interested in the region's economic dynamics.
+                    The final story, "The Central Asian Housing Puzzle," examines the unprecedented surge in Uzbekistan's housing prices from 2022 to 2024. The narrative investigates the potent link between the influx of Russian migrants and the price spike, situating the trend within a broader regional context and carefully weighing other economic drivers to provide a balanced, evidence-based account.
                 </p>
                 <div class="mt-6 text-center">
                     <a href="https://preview.shorthand.com/fmoJFGXger9iCo5F/responsive/desktop" target="_blank" rel="noopener noreferrer" class="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors text-lg">
@@ -81,11 +81,14 @@
             <section>
                 <h2>Changes Made Since Part II</h2>
                 <p class="text-slate-600 leading-relaxed">
-                    The feedback from user research in Part II was instrumental in shaping the final narrative. The most significant change was fully committing to the <strong>regional story</strong>. Instead of treating Kazakhstan and Kyrgyzstan as secondary, I integrated them into the primary visuals from the start. This immediately addressed the feedback that a narrow, Uzbekistan-only focus felt incomplete.
+                    The user feedback from Part II was the blueprint for the final iteration of this project. The changes were not just cosmetic; they fundamentally improved the clarity and credibility of the narrative.
                 </p>
-                <p class="mt-4 text-slate-600 leading-relaxed">
-                    I also acted directly on the call for more historical context by extending the migration data back to 2019, which makes the 2022 spike far more dramatic and visually significant. To address concerns about causality, I added a persistent "Association, not causation" label to key charts and included a dedicated "Methods and Limitations" section in the final story. Finally, the "drivers wall" was streamlined to the four most critical factors, making it less overwhelming while still demonstrating that I had considered alternative explanations.
-                </p>
+                <ul class="list-disc list-inside space-y-3 mt-4 text-slate-600 leading-relaxed">
+                    <li><strong>Simplified the Core Visual:</strong> Early feedback suggested that my initial price charts were too complex. In response, I replaced them with a simple, powerful bar chart showing the average annual growth in housing prices. This single visual makes the extraordinary nature of 2022 and 2023 immediately apparent, serving as a much stronger narrative hook.</li>
+                    <li><strong>Strengthened the Regional Context:</strong> I fully committed to the regional analysis by ensuring the comparison with Kazakhstan and Kyrgyzstan was a central thread, not an afterthought. This addresses the feedback that an Uzbekistan-only story felt incomplete.</li>
+                    <li><strong>Emphasized Analytical Honesty:</strong> To address valid concerns about implying causation, I added a clear and prominent "Methods and Limitations" section to the final story. This explicitly states that the analysis demonstrates a strong association, not a direct causal link, which respects the audience's analytical rigor.</li>
+                    <li><strong>Streamlined the "Drivers Wall":</strong> The feedback on the "drivers wall" was mixed, with some finding it dense. I pruned it to the four most critical economic factors. This retained the analytical depth of considering alternative explanations while making the story more focused and digestible.</li>
+                </ul>
             </section>
 
             <hr class="border-slate-200 my-8">
@@ -94,10 +97,10 @@
             <section>
                  <h2>The Audience</h2>
                  <p class="text-slate-600 leading-relaxed">
-                    My primary audience remained policy-minded graduate students and early-career analysts in fields like economics, public policy, and international affairs. This group is trained to question single-cause explanations and appreciate nuance. The user interviews confirmed this; they weren't just looking for a simple answer but wanted to see a structured argument.
+                    My primary audience is policy-minded graduate students and early-career analysts. This group is trained to look for nuance and question simple explanations. The user interviews in Part II confirmed they would immediately seek context and consider alternative factors.
                  </p>
                  <p class="mt-4 text-slate-600 leading-relaxed">
-                    Several design decisions were made specifically for them. The inclusion of the "drivers wall" was a direct response to anticipating their skepticism. It shows that I've considered factors like income and population growth, which strengthens the credibility of the migration-as-a-catalyst theory. Similarly, the indexed line chart for prices was chosen because this audience understands its value for making fair cross-country comparisons. The explicit limitations section also respects their analytical training by openly stating the boundaries of the analysis.
+                    This understanding directly shaped the final product. For instance, the decision to include the "drivers wall" was to proactively address their skepticism. It demonstrates that other key economic variables were considered and found to be following their historical trends, making the migration shock a more plausible catalyst. Similarly, the inclusion of an explicit limitations section was crucial for building credibility with an audience that values analytical transparency.
                  </p>
             </section>
             
@@ -107,10 +110,10 @@
             <section>
                  <h2>Final Design Decisions</h2>
                  <p class="text-slate-600 leading-relaxed">
-                    One of the most critical design decisions was using an **indexed line chart** for the regional price comparison. By setting a common baseline (Index = 100 in 2019), it allows the audience to compare the *rate of growth* across three countries with very different housing price levels, which was essential for telling a fair story.
+                    The most impactful design decision was shifting to a **bar chart for year-over-year price growth**. This choice was a direct result of user feedback asking for a clearer, more immediate way to see the price spike. A bar chart excels at comparing discrete values, and it instantly communicates the magnitude of the 2022-2023 increase relative to previous years. It's simple, direct, and serves the story's hook perfectly.
                  </p>
                  <p class="mt-4 text-slate-600 leading-relaxed">
-                    For the migration data, **small multiples** proved to be the most effective choice. Placing the three country charts side-by-side with a synchronized x-axis makes it incredibly easy to see that the migration spike in late 2022 was a shared regional event, but with different magnitudes. This visual structure does the heavy lifting of comparison for the reader. Finally, I focused on a clean, minimalist aesthetic with a colorblind-safe palette and direct labeling to minimize cognitive load and ensure the story, not the chart junk, was the focus.
+                    For the migration data, **small multiples** remained the best choice. Placing three synchronized charts side-by-side allows for effortless comparison of the timing and scale of the migration spike across the three countries. This visual structure does the comparative work for the reader, reinforcing the idea of a shared regional event. Finally, the overall aesthetic was kept clean and minimalist, using a colorblind-safe palette and direct labeling to ensure the data and the narrative remained the central focus.
                  </p>
             </section>
             
@@ -120,10 +123,10 @@
             <section>
                 <h2>Final Thoughts</h2>
                 <p class="text-slate-600 leading-relaxed">
-                    This project was a fascinating journey. It began as a straightforward analysis of a single country's housing market and evolved into a nuanced regional story about the interplay of migration and economics. The process reinforced how crucial iteration and user feedback are to effective data storytelling. Seeing the narrative sharpen and become more credible with each round of critique was easily the most exciting part of the process.
+                    This project was an exercise in letting the data, and the audience's reaction to it, guide the narrative. It evolved from a simple country analysis into a more complex and honest regional story. The process was a powerful reminder that the first version of a data story is rarely the best one. The cycle of prototyping, gathering feedback, and iterating was what ultimately sharpened the argument and built a more credible final product.
                 </p>
                 <p class="mt-4 text-slate-600 leading-relaxed">
-                    If I had more time, I would have loved to dive deeper into econometric analysis to move beyond visual association toward more robust causal inference. A regression model could help quantify the impact of migration while controlling for the other drivers I explored visually. However, for the scope of this course, I'm proud of creating a data story that is honest about its limitations while still presenting a compelling, evidence-based narrative. I look forward to applying these skills in my future work, turning complex data into clear stories that can inform policy and public understanding.
+                    If I were to continue this work, the next step would be a formal econometric analysis to attempt to quantify the impact of migration while controlling for other factors. However, for the scope of this project, I'm proud to have created a visual story that presents a compelling association, remains transparent about its limitations, and contributes a clear, data-driven perspective to an important economic conversation in the region.
                 </p>
             </section>
 
